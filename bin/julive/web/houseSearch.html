@@ -1,0 +1,113 @@
+<include src="#/web/common/header.html"></include>
+
+<!--s:新房情况局-->
+<include src="#/web/common/dynamicNews.html"></include>
+<!--E:新房情况局-->
+
+<!--s:人物-->
+<div class="mt20 wrap">
+	<ul class="col tc search-condition relative">
+		<li class="col3">
+			<span>区域</span><span class="turndown">▼</span>
+			<dl class="col shadow-2">
+				<dt class="col6">
+					<div class="current case-type">区域</div>
+					<div class="case-type">地铁</div>
+				</dt>
+				<dt class="col6 bg-muted">
+					<div class="case-type-item active">
+						<p class="selected case-type-option">丰台</p>
+						<p class="case-type-option">丰台</p>
+						<p class="case-type-option">丰台</p>
+					</div>
+					<div class="case-type-item">
+						<p class="selected case-type-option">一号线</p>
+						<p class="case-type-option">一号线</p>
+						<p class="case-type-option">一号线</p>
+					</div>
+				</dt>
+			</dl>
+		</li>
+		<li class="col3">
+			<span>总价 </span><span class="turndown">▼</span>
+			<dl class="shadow-2">
+				<dd class="case-type-option selected">不限</dd>
+				<dd class="case-type-option">&lt;200万</dd>
+				<dd class="case-type-option">200-400万</dd>
+				<dd class="case-type-option">400-500万</dd>
+				<dd class="case-type-option">500-600万</dd>
+				<dd class="case-type-option">600-800万</dd>
+				<dd class="case-type-option">800-1000万</dd>
+				<dd class="case-type-option">1000-2000万</dd>
+				<dd class="case-type-option">&gt;2000万</dd>
+				<dt class="col fs14">
+					<div class="col3">自定义价格</div>
+					<div class="col6 tc">
+						<input type="text" placeholder="最低" class="ipt case-ipt">
+						-
+						<input type="text" placeholder="最高"  class="ipt case-ipt">
+					</div>
+					<div class="col3">
+						<a class="btn btn-info btn-empty">确定</a>
+					</div>
+				</dt>
+			</dl>
+		</li>
+		<li class="col3">
+			<span>户型</span><span class="turndown">▼</span>
+			<dl class="shadow-2">
+				<dd class="case-type-option selected">不限</dd>
+				<dd class="case-type-option">一居</dd>
+				<dd class="case-type-option">二居</dd>
+				<dd class="case-type-option">三居</dd>
+				<dd class="case-type-option">四居</dd>
+				<dd class="case-type-option">五居及以上</dd>
+			</dl>
+		</li>
+		<li class="col3">
+			<span>更多</span><span class="turndown">▼</span>
+			<dl class="tl plr10 case-more shadow-2">
+				<dt>类型</dt>
+				<dd>
+					<span class="selected case-type-option"> 不限</span>
+					<span class="case-type-option">住宅</span>
+					<span class="case-type-option">别墅</span>
+				</dd>
+				<dt>特色</dt>
+				<dd>
+					<span class="case-type-option selected"> 不限</span>
+					<span class="case-type-option">住宅</span>
+					<span class="case-type-option">别墅</span>
+				</dd>
+				<dt>环线</dt>
+				<dd>
+					<span class="case-type-option selected"> 不限</span>
+					<span class="case-type-option">二环内</span>
+					<span class="case-type-option">二-三环内</span>
+					<span class="case-type-option">三-四环内</span>
+					<span class="case-type-option">四-五环内</span>
+					<span class="case-type-option">五-六环内</span>
+					<span class="case-type-option">六环外</span>
+				</dd>
+				<dt>售卖情况</dt>
+				<dd>
+					<span class="case-type-option selected"> 不限</span>
+					<span class="case-type-option">未售</span>
+					<span class="case-type-option">在售</span>
+					<span class="case-type-option">售罄</span>
+					<span class="case-type-option">待售</span>
+				</dd>
+
+				<dd class="tc">
+					<span class="btn btn-warn">重置条件</span>
+					<span class="btn btn-info">确定</span>
+				</dd>
+			</dl>
+		</li>
+	</ul>
+	<include src="#/web/common/houseList.html"></include>
+</div>
+<!--:人物-->
+
+
+

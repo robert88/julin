@@ -1,0 +1,53 @@
+.banner img{width: 100%}
+/*s:经典页面列表*/
+.case-list{
+	margin: 20px 0;
+	padding: 5px 0 30px 140px;
+	border-bottom: 1px solid #e1e1e1;
+	position:relative;
+}
+.case-list .info>div{
+	font-size: .85rem;
+	color:#999;
+}
+.case-list .img img{
+	height: 100%;
+	width:100%;
+}
+/*e:经典页面列表*/
+.case-list .img{
+	position: absolute;
+	left: 0;
+	top: 4px;
+	overflow: hidden;
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+}
+.case-list .feedback em{
+	color: #ff6e72;
+	padding-left: 10px;
+}
+.noticeContent-exp.open .icon-chevron-down{
+	transform: rotate(-0deg);
+}
+.case-list .tel{
+	position: absolute;
+	top: 100%;
+	right: 20px;
+}
+.case-list .tel .ico{
+   background-size: 1rem 92.65rem;
+   width:1rem;
+   height:1rem;
+}
+.case-list .tel .icon_b_wenda{
+	background-position: 0 -46.625rem;
+	margin-right: 20px;
+}
+.case-list .tel .icon_tel{
+	background-position: 0 -68.65rem;
+	margin-left: 20px;
+	top: 6px;
+	position: relative;
+}

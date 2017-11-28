@@ -1,0 +1,96 @@
+.banner .swiper-container{
+	background: #999;
+	height:280px;
+	overflow: hidden;
+}
+.banner .swiper-container img{
+	height:100%;
+	width: 100%;
+	border: none;
+}
+.banner .swiper-container .banner-info{
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    z-index: 2;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding: 0 10px;
+    border-radius: 51px;
+}
+.banner .swiper-container .banner-info .img{display: inline-block;}
+.banner .swiper-container .banner-info .swiper-slide-info{display: inline-block;}
+
+.houserHeader{
+    position: relative;
+    padding-right: 30px;
+}
+.houserHeader .left{}
+.houserHeader .right{
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    border-left: 1px solid #e1e1e1;
+    padding-left: 10px;
+    width: 60px;
+    height: 100%;
+    top: 0;
+}
+
+.discount-area {
+	height: 60px;
+	padding: 10px;
+	margin: 10px 0;
+	background-color: #fff1f1;
+	border: 1px solid #f15a5d;
+	border-radius: 3px;
+	overflow: hidden;
+}
+.discount-area .btn-dis {
+	float: right;
+	width: 100px;
+	height: 31px;
+	color: #fff;
+	text-align: center;
+	margin-top: 10px;
+	border-radius: 3px;
+	background-color: #ff6d6f;
+}
+.discount-area .txt {
+	color: #f15a5d;
+	margin-right: 10px;
+	max-width: 100px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+/**户型*/
+.Huxing-wrap .info{
+	text-align: center;
+}
+.Huxing-wrap .swiper-slide{
+	text-align: center;
+}
+.Huxing-wrap .swiper-slide img {
+	height: 151px;
+}
+
+.img-border-radius{
+	padding:0 20px;
+	text-align: center;
+}
+.img-border-radius img{
+	margin-bottom: 10px;
+	width: 80%;
+	border-radius: 50%;
+}
+.free-search-mobile{position:relative;line-height: 36px;}
+.free-search-mobile .ipt{
+    line-height: 37px;
+}
+.free-search-mobile .btn{
+    position: absolute;
+    border-radius: 0;
+    right: 0;
+    top: 0;
+}

@@ -1,0 +1,6 @@
+[error][2017/11/29 01:40:52][function handlerErr(err,response,name)]:domainErrorEvent : Error: EISDIR: illegal operation on a directory, read
+    at Error (native)
+[error][2017/11/29 01:40:53][function handlerErr(err,response,name)]:domainErrorEvent : Error: EISDIR: illegal operation on a directory, read
+    at Error (native)
+[error][2017/11/29 01:40:53][function handlerErr(err,response,name)]:domainErrorEvent : Error: EISDIR: illegal operation on a directory, read
+    at Error (native)
