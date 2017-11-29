@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>首页</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE8">
+    <meta name="apple-mobile-web-app-capable" content="no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta content="telephone=no" name="format-detection">
+
+		<!--start mergeCss:main.min-->
+		<link rel="stylesheet" type="text/css" href="/public/css/common/base.css">
+		<link rel="stylesheet" type="text/css" href="/public/css/common/main.css">
+		<link rel="stylesheet" type="text/css" href="/public/css/skin/main_color.css">
+		<!--end mergeCss-->
+
+		<!--start mergeJs:lib.min-->
+		<script src="/public/js/lib/jquery-1.12.4.js"></script>
+		<script src="/public/js/common/prototype.js"></script>
+		<script src="/public/js/common/base.js"></script>
+		<script src="/public/js/common/config.js"></script>
+		<script src="/public/js/common/main.js"></script>
+		<!--end mergeJs-->
+
+
+</head>
+
+<body>
+
+	<style  type='text/css'>@charset "UTF-8"; /*../julive/web/consultative.css*/.banner img{width: 100%}  .case-list{ margin: 20px 0; padding: 5px 0 30px 140px; border-bottom: 1px solid #e1e1e1; position:relative; } .case-list .info>div{ font-size: .85rem; color:#999; } .case-list .img img{ height: 100%; width:100%; }  .case-list .img{ position: absolute; left: 0; top: 4px; overflow: hidden; border-radius: 50%; width: 120px; height: 120px; } .case-list .feedback em{ color: #ff6e72; padding-left: 10px; } .noticeContent-exp.open .icon-chevron-down{ transform: rotate(-0deg); } .case-list .tel{ position: absolute; top: 100%; right: 20px; } .case-list .tel .ico{ background-size: 1rem 92.65rem; width:1rem; height:1rem; } .case-list .tel .icon_b_wenda{ background-position: 0 -46.625rem; margin-right: 20px; } .case-list .tel .icon_tel{ background-position: 0 -68.65rem; margin-left: 20px; top: 6px; position: relative; } </style>
+	<include src="common/header.html"></include>
+
+<include src="common/searchHouse.html"></include>
+
+<!--s:头部查询-->
+<div class="wrap banner mt20">
+	<img src="/public/images/i.jpg" alt="">
+</div>
+<!--e:头部查询-->
+
+<!--s:人物-->
+<div class="mt20 wrap personList">
+	<a href="consultativeDetail.html">
+		<ul class="case-list">
+			<li class="img">
+
+				<img src="/public/images/user.jpg" alt="五和万科长阳天地">
+			</li>
+			<li class="info">
+				<div class="relative">
+					<h3 class="inline-block">孙立军</h3>
+					<div class="lb-area inline-block">
+						<span class="lb lb1">理性</span><span class="lb lb2">客观</span><span class="lb lb3">真诚</span>
+					</div>
+					<div class="tel"><i class="ico icon_b_wenda"></i><i class="ico icon_tel"></i></div>
+				</div>
+				<div class="sch">毕业于太原理工大学</div>
+				<div class="feedback fs12">
+					咨询人数<em class="fs14">2302人</em>
+					满意度<em class="fs14">99.91%</em>
+				</div>
+				<h4>最新工作随笔</h4>
+				<div class="noticeContent t-overflow">最近客户咨询次数逐渐增多，通过微信可能不能及时添加到您各位，建议您可以用一下我们最新的app“居理新房”，里面可以点击我的头像进行在线咨询。我看到之后一定第一时间给您回复。谢谢您的认可，如果可以，也请您帮我们这个可爱的小猫头鹰多多做宣传哈！                            </div>
+				<div class="tc  noticeContent-exp"><span class="icon-chevron-down J-icondown"></span></div>
+			</li>
+		</ul>
+	</a>
+</div>
+<!--:人物-->
+
+
+	<script>$(function(){;(function(){ var innerModule = {};var innerRequire = function(index){ return innerModule[index]; }; /*../julive/web/consultative.js*/(function() {
+    $(".personList").on("click", ".noticeContent-exp", function() {
+        $(this).toggleClass("open").parents(".case-list").find(".noticeContent").toggleClass("t-overflow");
+        $(this).find(".J-icondown").toggleClass(" icon-chevron-up icon-chevron-down");
+        return false;
+    });
+})();})();})</script>
+
+    <div id="pageLoad">
+        <div class="loader">
+            <div class="loader-inner line-scale-pulse-out">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    
+
+	</body>
+
+</html>

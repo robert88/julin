@@ -60,26 +60,28 @@ function merge(parseFile, outPath,inPath) {
 		wake.writeData(outFile,lastData)
 		
 	}
-	handleInclude(files);
+	handleInclude(files,outPath);
 	//handleREM(wake.findFile(outPath,"html",true);)
 	//handleREM(wake.findFile(outPath,"css",true);)
 
 };
 
-function handleInclude(files){
+function handleInclude(files,outPath){
 		for(var i=0;i<files.length;i++){
 			var file = files[i]
 			var fileData = wake.readData(file);
+			var outFile = getBuildPath(file,outPath);
 			var includeReg = /<include[^>]*>([\u0000-\uFFFF]*?)<\/include>/gmi;
 
-			var includeTag = indexData.match(includeReg);
+			var includeTag = fileData.match(includeReg);
 
-			for(var i in includeTag){
+				if(includeTag){
+					for(var j=0;j<includeTag.length;j++){
+						var otherFile = includeTag[j].match(/src='?"?([^'"]+)'?"?/)
+						console.log(otherFile)
+					}
+				}
 
-				var otherFile = /src="?'?'([^'"])+?"?/.exec(scriptTag[i]);
-
-				console.log(otherFile)
-			}
 		}
 }
 function handleREM(files){
