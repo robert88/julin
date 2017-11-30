@@ -15,26 +15,17 @@ function merge(parseFile, outPath,inPath) {
 	console.log("-------common index:".green,parseFile,"-----------".green)
 
 	var files = wake.findFile(inPath,"html",true);
-	var jscode;
-	for(var i=0;i<files.length;i++){
-		var file = files[i];
-		var outFile = getBuildPath(files[i],outPath);
-        console.log(file,"to".red,outFile)
-		var js = file.replace(".html",".js");
+	
+		handleInclude(files,outPath,indexData);
+	handleREM(wake.findFile(outPath,"html",true))
+	handleREM(wake.findFile(outPath,"css",true))
+
+};
+/*
+*处理一个css
+*/
+function handleOneCss(file){
 		var css= file.replace(".html",".css");
-		var fileData = wake.readData(file)
-	//同名js文件
-		if(wake.isExist(js)){
-			var jsData = wake.readData( js )
-			if(jsData.trim()==""){
-				jscode = "";
-			}else{
-				jscode = mergeParseJs.parseJs(js);
-				jscode = "<script>$(function(){"+jscode + "})</script>"
-			}
-		}else{
-			jscode="";
-		}
 		if(wake.isExist(css)){
 			var cssData = wake.readData( css )
 			var cssCode
@@ -47,49 +38,121 @@ function merge(parseFile, outPath,inPath) {
 		}else{
 			cssCode = "";
 		}
-
-
+		return cssCode
+}
+/*
+*处理一个css
+*/
+function handleOneJS(file){
+		var jscode;
+		var js = file.replace(".html",".js");
+		if(wake.isExist(js)){
+			var jsData = wake.readData( js )
+			if(jsData.trim()==""){
+				jscode = "";
+			}else{
+				jscode = mergeParseJs.parseJs(js);
+				jscode = "<script>$(function(){"+jscode + "})</script>"
+			}
+		}else{
+			jscode="";
+		}
+		return jscode;
+}
+/**
+处理多个css*/
+function handleCss(files){
+	var code =[];
+		for(var i=0;i<files.length;i++){
+			var file = files[i];
+			code.push(handleOneCss(file));
+		}
+		return code.join("")
+}
+/**
+处理多个js*/
+function handleJs(files){
+	var code =[];
+		for(var i=0;i<files.length;i++){
+			var file = files[i];
+			code.push(handleOneJS(file));
+		}
+		return code.join("")
+}
+/**
+处理一个文件
+*/
+function handleOneInclude(file,outPath,indexData){
+			var outFile = getBuildPath(file,outPath);
+			console.log(file,"to".red,outFile)
+			var subFiles = {};
+			var subFilesArr = []
+			var htmlData = handleOneFile(file,subFiles);
+			subFilesArr.push(file)
+			for(var sub in subFiles){
+				subFilesArr.push(sub);
+			}
+			var cssData = handleCss(subFilesArr);
+			var jsData = handleJs(subFilesArr);
 		
-		lastData = indexData.replace('<div id="pageCss"></div>',cssCode||"")
-			.replace('<div id="page"></div>',fileData.replace(/#\/web\//g,""))
-			.replace('<div id="pageJs"></div>',jscode||"");
+				
+		var lastData = indexData.replace('<div id="pageCss"></div>',cssData||"").replace(/@charset\s+"UTF-8";/g,"")
+			.replace('<div id="page"></div>',htmlData.replace(/#\/web\//g,""))
+			.replace('<div id="pageJs"></div>',jsData||"");
 		//将简写替换加上.html
 		lastData = lastData.replace(/href\s*=\s*"?#([^"]+)"?/gm,function(m,m1){var t=m1.split("?");return ('href="'+(t[0].indexOf(".html")!=-1?t[0]:t[0]+".html")+'"')})
 
 		lastData = lastData.replace(/"\/index\.html#!\/web/gm,"\"/web").replace(/"\/admin\.html#!\/admin/gm,"\"/admin").replace(/"\/index\.html#/gm,"\"/web/home.html#").replace(/"\/index\.html"/gm,"\"/web/home.html\"").replace(/"\/admin\.html"/gm,"\"/admin/index.html\"")
 		wake.writeData(outFile,lastData)
-		
-	}
-	handleInclude(files,outPath);
-	//handleREM(wake.findFile(outPath,"html",true);)
-	//handleREM(wake.findFile(outPath,"css",true);)
-
-};
-
-function handleInclude(files,outPath){
+}
+/**
+处理多个文件
+*/
+function handleInclude(files,outPath,indexData){
 		for(var i=0;i<files.length;i++){
-			var file = files[i]
+			handleOneInclude(files[i],outPath,indexData)
+		}
+}
+/**
+处理单个文件
+*/
+function handleOneFile(file,subFiles){
 			var fileData = wake.readData(file);
-			var outFile = getBuildPath(file,outPath);
 			var includeReg = /<include[^>]*>([\u0000-\uFFFF]*?)<\/include>/gmi;
 
-			var includeTag = fileData.match(includeReg);
+			var includeTags = fileData.match(includeReg);
 
-				if(includeTag){
-					for(var j=0;j<includeTag.length;j++){
-						var otherFile = includeTag[j].match(/src='?"?([^'"]+)'?"?/)
-						console.log(otherFile)
+			if(includeTags){
+				for(var j=0;j<includeTags.length;j++){
+					var otherFile = includeTags[j].match(/src='?"?([^'"]+)'?"?/);
+					if(otherFile&&otherFile[0]&&otherFile[1]){
+						otherFile[1] = otherFile[1].replace("#","../julive");
+						console.log(otherFile[1].green);
+						fileData = replaceIncludeHtml(fileData,includeTags[j],otherFile[1],subFiles)
 					}
 				}
-
-		}
+			}
+			return fileData;
+}
+/**替换单个html
+*/
+function replaceIncludeHtml(currFileData,includeTag,subFile,subFiles){
+	var fileData = wake.readData(subFile);
+	var includeReg = /<include[^>]*>([\u0000-\uFFFF]*?)<\/include>/gmi;
+	var subIncludeTag = fileData.match(includeReg);
+	if(subIncludeTag){
+		currFileData = currFileData.replace(includeTag,handleOneFile(subFile,subFiles))
+	}else{
+		currFileData = currFileData.replace(includeTag,fileData)
+	}
+	subFiles[subFile] = 1;
+	return currFileData;
 }
 function handleREM(files){
 		for(var i=0;i<files.length;i++){
 			var file = files[i]
 			var fileData = wake.readData(file);
-			var includeTag = indexData.match(/\d+\(.\d+)?px/);
-			lastData = indexData.replace(/\d+(\.\d+)?px/g,function(m){ var a= parseFloat(m)||0;return (a/16+"rem")})
+			var lastData = fileData.replace(/\d+(\.\d+)?px/g,function(m){ var a= parseFloat(m)||0;return (a/16+"rem")})
 			wake.writeData(outFile,lastData)
 		}
 }
