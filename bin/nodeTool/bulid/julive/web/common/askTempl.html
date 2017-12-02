@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <title>首页</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE8">
-    <meta name="apple-mobile-web-app-capable" content="no">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-    <meta content="telephone=no" name="format-detection">
+	<head>
+		<meta charset="utf-8">
+		<title>首页</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE8">
+		<meta name="apple-mobile-web-app-capable" content="no">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		<meta content="telephone=no" name="format-detection">
 
 		<!--start mergeCss:main.min-->
 		<link rel="stylesheet" type="text/css" href="/public/css/common/base.css">
 		<link rel="stylesheet" type="text/css" href="/public/css/common/main.css">
 		<link rel="stylesheet" type="text/css" href="/public/css/skin/main_color.css">
+		<link rel="stylesheet" type="text/css" href="/public/css/common/index.css">
+		<link rel="stylesheet" type="text/css" href="/public/css/common/form.css">
+		<link rel="stylesheet" type="text/css" href="/public/css/font/style.css">
+		<link rel="stylesheet" type="text/css" href="/public/css/common/swiper.min.css">
 		<!--end mergeCss-->
 
 		<!--start mergeJs:lib.min-->
@@ -21,14 +25,15 @@
 		<script src="/public/js/common/base.js"></script>
 		<script src="/public/js/common/config.js"></script>
 		<script src="/public/js/common/main.js"></script>
+		<script src="/public/js/lib/swiper-3.4.2.jquery.min.js"></script>
 		<!--end mergeJs-->
 
 
-</head>
+	</head>
+	
+	<body>
 
-<body>
-
-	<style  type='text/css'> /*../julive/web/common/askTempl.css*/.askContent { position: relative; padding-left: 45px; padding-right: 20px; } .askContent .tips{ position: absolute; width: 40px; height: 40px; line-height: 40px; left: 0; font-size: 14px; text-align: center; color: #fff; background-color: #48B3E2; border-top-right-radius: 50%; border-bottom-right-radius: 50%; font-weight: 700; } .askContent .ask-info{} .askContent .asker-info{} .askContent .asker{} .askContent .project-budget{} .askContent .ask-source{ float: right; } .askContent .answerText{ background-color: #F4F4F4; padding: 10px; } .askContent .answerText.t-overflow{ display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; } .asker-img{display: inline-block;position: relative;top: -2px;width: 26px;height: 26px;vertical-align: middle;overflow: hidden;border-radius: 50%;}</style>
+	<style  type='text/css'> /*../julive/web/common/askTempl.css*/.askContent { position: relative; padding-left: 2.8125rem; padding-right: 1.25rem; } .askContent .tips{ position: absolute; width: 2.5rem; height: 2.5rem; line-height: 2.5rem; left: 0; font-size: 0.875rem; text-align: center; color: #fff; background-color: #48B3E2; border-top-right-radius: 50%; border-bottom-right-radius: 50%; font-weight: 700; } .askContent .ask-info{} .askContent .asker-info{} .askContent .asker{} .askContent .project-budget{} .askContent .ask-source{ float: right; } .askContent .answerText{ background-color: #F4F4F4; padding: 0.625rem; } .askContent .answerText.t-overflow{ display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; } .asker-img{display: inline-block;position: relative;top: -0.125rem;width: 1.625rem;height: 1.625rem;vertical-align: middle;overflow: hidden;border-radius: 50%;}</style>
 	<div class="askContent mtb20">
 	<div class="tips">问</div>
 	<div class="ask-info">
@@ -70,7 +75,19 @@
             </div>
         </div>
     </div>
-    
+
+	<!--s:底部-->
+	<div class="footer wrap col plr20 ptb5 fs12">
+		<div class="col8">
+			<p>北京侃家科技有限公司</p>
+			<p class="icp">网络经营许可证 京ICP备 15012099号</p>
+		</div>
+		<div class="col4 relative pt10">
+			<a class="pc-link mr20" href="http://www.julive.com">电脑版</a>
+			<a class="map" href="/sitemap.html">网站地图</a>
+		</div>
+	</div>
+	<!--e:底部-->
 
 	</body>
 

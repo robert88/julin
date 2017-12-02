@@ -153,7 +153,7 @@ function handleREM(files){
 			var file = files[i]
 			var fileData = wake.readData(file);
 			var lastData = fileData.replace(/\d+(\.\d+)?px/g,function(m){ var a= parseFloat(m)||0;return (a/16+"rem")})
-			wake.writeData(outFile,lastData)
+			wake.writeData(file,lastData)
 		}
 }
 function copyPublic(inPath,outpath){

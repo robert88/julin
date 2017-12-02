@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <title>首页</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE8">
-    <meta name="apple-mobile-web-app-capable" content="no">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-    <meta content="telephone=no" name="format-detection">
+	<head>
+		<meta charset="utf-8">
+		<title>首页</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE8">
+		<meta name="apple-mobile-web-app-capable" content="no">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		<meta content="telephone=no" name="format-detection">
 
 		<!--start mergeCss:main.min-->
 		<link rel="stylesheet" type="text/css" href="/public/css/common/base.css">
 		<link rel="stylesheet" type="text/css" href="/public/css/common/main.css">
 		<link rel="stylesheet" type="text/css" href="/public/css/skin/main_color.css">
+		<link rel="stylesheet" type="text/css" href="/public/css/common/index.css">
+		<link rel="stylesheet" type="text/css" href="/public/css/common/form.css">
+		<link rel="stylesheet" type="text/css" href="/public/css/font/style.css">
+		<link rel="stylesheet" type="text/css" href="/public/css/common/swiper.min.css">
 		<!--end mergeCss-->
 
 		<!--start mergeJs:lib.min-->
@@ -21,14 +25,15 @@
 		<script src="/public/js/common/base.js"></script>
 		<script src="/public/js/common/config.js"></script>
 		<script src="/public/js/common/main.js"></script>
+		<script src="/public/js/lib/swiper-3.4.2.jquery.min.js"></script>
 		<!--end mergeJs-->
 
 
-</head>
+	</head>
+	
+	<body>
 
-<body>
-
-	<style  type='text/css'> /*../julive/web/common/picPrewiew.css*/.photoBox { display: block; z-index: 1067; position: fixed; top: 0; left: 0; background: #000; color: #989898; -webkit-box-pack: center; -webkit-box-align: center } .photoBox .photo-t .top-l a,.photoBox .photo-t .top-r a { color: #888 } .photoBox .photo-c { position: absolute; left: 5%; align-items: center; width: 90%; top: 30px; bottom: 30px; background-color: #2C2C2C; } .photoBox .swiper-container .swiper-wrapper .item { width: 100%; height: 100%; margin: auto } .photo-b,.photoBox .photo-t { height: 40px; line-height: 40px; } .photoBox .swiper-container .swiper-wrapper .item img { display: block; max-width: 10rem; max-height: 100%; margin: auto } .photoBox .photo-t .swiper-pagination-fraction { width: 100%; font-size: .4rem; text-align: center; color: #888 } .photoBox .photo-t { width: 100%; position: absolute; z-index: 99; background: #373737 } .photoBox .photo-t .top-l { position: absolute; left: 20px; } .photoBox .photo-t .top-l img { display: block; width: 100% } .photoBox .photo-t .t-center { width: 50%; margin: 0 auto; text-align: center; } .photoBox .photo-t .top-r { position: absolute; right: 20px; top: 0; } .photo-b { position: fixed; width: 100%; bottom: 0; left: 0; background-color: #373737; overflow: hidden; z-index: 1 } .photo-b .swiper-slide { text-align: center } .photoBox .photo-b .swiper-wrapper .on a { color: #fff!important } .photoBox .photo-b .swiper-wrapper .item a { color: #888 } .photoBox .photo-b .swiper-wrapper .item a:link { text-decoration: none } .photo-c,.photoBox,.swiper-container-c { width: 100%; height: 100% } .photo-c .swiper-slide img { width: 100%; height: 100%; z-index: 1900; }</style>
+	<style  type='text/css'> /*../julive/web/common/picPrewiew.css*/.photoBox { display: block; z-index: 1067; position: fixed; top: 0; left: 0; background: #000; color: #989898; -webkit-box-pack: center; -webkit-box-align: center } .photoBox .photo-t .top-l a,.photoBox .photo-t .top-r a { color: #888 } .photoBox .photo-c { position: absolute; left: 5%; align-items: center; width: 90%; top: 1.875rem; bottom: 1.875rem; background-color: #2C2C2C; } .photoBox .swiper-container .swiper-wrapper .item { width: 100%; height: 100%; margin: auto } .photo-b,.photoBox .photo-t { height: 2.5rem; line-height: 2.5rem; } .photoBox .swiper-container .swiper-wrapper .item img { display: block; max-width: 10rem; max-height: 100%; margin: auto } .photoBox .photo-t .swiper-pagination-fraction { width: 100%; font-size: .4rem; text-align: center; color: #888 } .photoBox .photo-t { width: 100%; position: absolute; z-index: 99; background: #373737 } .photoBox .photo-t .top-l { position: absolute; left: 1.25rem; } .photoBox .photo-t .top-l img { display: block; width: 100% } .photoBox .photo-t .t-center { width: 50%; margin: 0 auto; text-align: center; } .photoBox .photo-t .top-r { position: absolute; right: 1.25rem; top: 0; } .photo-b { position: fixed; width: 100%; bottom: 0; left: 0; background-color: #373737; overflow: hidden; z-index: 1 } .photo-b .swiper-slide { text-align: center } .photoBox .photo-b .swiper-wrapper .on a { color: #fff!important } .photoBox .photo-b .swiper-wrapper .item a { color: #888 } .photoBox .photo-b .swiper-wrapper .item a:link { text-decoration: none } .photo-c,.photoBox,.swiper-container-c { width: 100%; height: 100% } .photo-c .swiper-slide img { width: 100%; height: 100%; z-index: 1900; }</style>
 	<div class="photoBox" style="display: none">
 	<div class="photo-t">
 		<div class="top-l">
@@ -96,7 +101,19 @@
             </div>
         </div>
     </div>
-    
+
+	<!--s:底部-->
+	<div class="footer wrap col plr20 ptb5 fs12">
+		<div class="col8">
+			<p>北京侃家科技有限公司</p>
+			<p class="icp">网络经营许可证 京ICP备 15012099号</p>
+		</div>
+		<div class="col4 relative pt10">
+			<a class="pc-link mr20" href="http://www.julive.com">电脑版</a>
+			<a class="map" href="/sitemap.html">网站地图</a>
+		</div>
+	</div>
+	<!--e:底部-->
 
 	</body>
 
