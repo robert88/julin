@@ -1,4 +1,4 @@
-function AutoScroll(t) {
+window.AutoScroll =function(t) {
 	var h = $(t).find("li").height();
 	if($(t).find("li").length<=1){
 		return;
@@ -13,4 +13,4 @@ function AutoScroll(t) {
 	})
 }
 
-AutoScroll(".scrollDiv");
+window.AutoScroll(".scrollDiv");

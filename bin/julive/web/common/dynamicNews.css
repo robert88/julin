@@ -12,25 +12,24 @@
 .dyn-left{
 	position: absolute;
 	left: 8px;
-	font-size: 0.85rem;
 	top: 14px;
 }
 .dyn-left a{
 	display: block;
-	margin-top: 10px;
+	margin-top: 20px;
 }
 
 .lb .dynamic .dyn-left {
 	float: left;
-	width: 1.46rem;
-	height: .9rem;
+	width: 23.36px;
+	height: .144px;
 	border-right: 1px solid #DDD
 }
 
 .lb .dynamic .dyn-left .dyn-left-content a {
 	display: block;
-	width: 1.2rem;
-	height: .9rem
+	width: 19.2px;
+	height: .144px
 }
 
 .lb .dynamic .dyn-left img {
@@ -44,8 +43,8 @@
 }
 
 .lb .dynamic .dyn-center ul {
-	width: 7.5rem;
-	height: .9rem
+	width: 120px;
+	height: .144px
 }
 
 .lb .dynamic .dyn-center .scroll_logo {
@@ -54,10 +53,10 @@
 
 .lb .dynamic .dyn-center .scroll_logo .sl_lf {
 	font-weight: 700;
-	height: .5rem;
-	line-height: .5rem;
-	font-size: .346rem;
-	max-width: 5.8rem;
+	height: .80px;
+	line-height: .80px;
+	font-size: .5536px;
+	max-width: 92.8px;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis
@@ -65,15 +64,15 @@
 
 .lb .dynamic .dyn-center .scroll_logo .sl_time {
 	float: right;
-	font-size: .373rem;
+	font-size: .5968px;
 	color: #48b3e2
 }
 
 .lb .dynamic .dyn-center .scroll_news {
-	width: 7.5rem;
-	height: .45rem;
-	line-height: .45rem;
-	font-size: .32rem;
+	width: 120px;
+	height: .720px;
+	line-height: .720px;
+	font-size: .512px;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis

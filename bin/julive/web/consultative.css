@@ -7,7 +7,7 @@
 	position:relative;
 }
 .case-list .info>div{
-	font-size: .85rem;
+	font-size: .1360px;
 	color:#999;
 }
 .case-list .img img{
@@ -37,16 +37,16 @@
 	right: 20px;
 }
 .case-list .tel .ico{
-   background-size: 1rem 92.65rem;
-   width:1rem;
-   height:1rem;
+   background-size: 16px 1482.4px;
+   width:16px;
+   height:16px;
 }
 .case-list .tel .icon_b_wenda{
-	background-position: 0 -46.625rem;
+	background-position: 0 -746px;
 	margin-right: 20px;
 }
 .case-list .tel .icon_tel{
-	background-position: 0 -68.65rem;
+	background-position: 0 -1098.4px;
 	margin-left: 20px;
 	top: 6px;
 	position: relative;

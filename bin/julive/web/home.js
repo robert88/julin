@@ -9,3 +9,14 @@ $(".open").click(function () {
 		$item.addClass("find-item-open").height(ulHeight);
 	}
 });
+
+/*居理咨询师*/
+var swiper = new Swiper('.personList .swiper-container', {
+	pagination: '.swiper-pagination',
+	paginationClickable: true,
+	// Disable preloading of all images
+	preloadImages: false,
+	slidesPerView: 3,
+	// Enable lazy loading
+	lazyLoading: true
+});

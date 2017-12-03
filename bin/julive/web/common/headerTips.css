@@ -1,15 +1,15 @@
 .top-download{
-	margin: 0 1rem 1rem;
+	margin: 0 16px 16px;
 	background-color: #fff;
-	border-radius: .875rem;
-	padding: 0.5rem 1rem;
+	border-radius: 5px;
+	padding: 8px 16px;
 	box-shadow: 0 5px 10px rgba(0,0,0,.15);
 	position: relative;
 }
 .top-download .download_logo{
-	padding-right:1rem;
-	width: 4.0625rem;
-	height: 4.0625rem;
+	padding-right:16px;
+	width: 65px;
+	height: 50px;
 	float: left;
 }
 .top-download .download_logo img{
@@ -18,11 +18,11 @@
 .top-download .download_desc
 {
 	float: left;
-	line-height: 2.03125rem;
+	line-height: 25px;
 }
 .top-download .download_btn{
 	position: absolute;
-	right: 1rem;
-	margin-top: -0.5rem;
+	right: 16px;
+	margin-top: -13px;
 	top: 50%;
 }
