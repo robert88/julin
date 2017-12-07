@@ -1,0 +1,55 @@
+.gotop {
+	position: fixed;
+	bottom: 20px;
+	right: 10px;
+	z-index: 98;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+	line-height: 38px;
+	text-align: center;
+	background: #fff;
+}
+
+.toorbar-sort {
+	color: #333;
+	position: fixed;
+	bottom: 80px;
+	right: 10px;
+	width: 40px;
+	z-index: 98;
+	height: 40px;
+	border-radius: 50%;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+	line-height: 38px;
+	background: #fff;
+	text-align: center;
+}
+
+.toorbar-sort-mask {
+	display: none;
+	position: fixed;
+	pointer-events: auto;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color:rgba(0,0,0,.6);
+	z-index: 998;
+}
+.toorbar-condition {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* height: 0; */
+	background: #fff;
+	z-index: 999;
+}
+.toorbar-condition li{
+	margin: 10px 0;
+	text-align: center;
+}
+.toorbar-condition li.on a{
+	color: #48b3e2;
+}

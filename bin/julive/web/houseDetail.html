@@ -40,7 +40,7 @@
 			<h3>华润萬橡府 <span class="tips"></span></h3>
 			<p>参考总价： 待定</p>
 		</div>
-		<div class="right">
+		<div class="right" id="collection">
 			<div><i class="icon-heart"></i></div>
 			<p>收藏</p>
 		</div>
@@ -109,11 +109,10 @@
 	<p class="mt5 fs14">
 		华润萬橡府最新房源待售，目前正在等新预售证的下发，预计2017年11月3、5号楼开盘，推出高品质185-295平米4-5居房源，价格待定。项目位于海淀上地商圈，学府树北街(清河桥西500米)，紧邻的20万㎡华润五彩城购物中心。项目整体为高层板楼，南北通透平层。具体信息可来电免费咨询~
 	</p>
-	<div class="btn btn-info lh40 mtb10" style="display: block">订阅最新楼盘动态</div>
-
+	<div class="btn btn-info lh40 mtb10" style="display: block"><a href="#/web/subscription.html" class="a-wrap">订阅最新楼盘动态</a></div>
 </div>
 
-<div class="wrap mt10 Huxing-wrap shadow-2 p10">
+<div class="wrap mt10 Huxing-wrap shadow-2 p10"  id="houseType">
 	<h3 class="ptb10">户型介绍</h3>
 	<!-- Swiper -->
 	<div class="swiper-container">
@@ -203,7 +202,7 @@
 	</div>
 </div>
 
-<div class="wrap mt10 shadow-2 p10">
+<div class="wrap mt10 shadow-2 p10" id="houseAround">
 	<h3 class="ptb10">周边配套</h3>
 	<div class="col">
 		<div class="col02">
@@ -255,9 +254,9 @@
 				天恒京西悦府位于北京市房山区阎村镇阎村地铁口，天恒、中粮联合拿地，打造新中式精工著作。项目优势：1、交通便利，距离燕房线阎村地铁站仅300米，项目周边有22趟公交路过，距离京港澳高速入口1.5千米，距离六环900米，无论是公共交通还是自驾都十分方便；2、商业配套，项目本身有11万平米商业配套，银行、超市、餐饮、会所等一应俱全，满足生活所需；3、教育配套：阎村中心幼儿园、智慧双语幼儿园、绿城小学、星城中学，满足孩子一站式教育；3、医疗资源丰富，距离较近的燕化医院星城分院是三甲级医院，此外还有同济东方中西医结合医院和武警总医院；4，生态环境舒适宜居，配建休闲公园、体育活动公园，综合性体育场馆。项目不足：交房时间比较晚19年9月交房。目前在售96平、120平三居，130平四居，均价3.7-3.8万，总价370万起。
 				</p>
 			<div class="col mtb20">
-				<div class="col6"><span>2017-08-16 </span></div>
-				<div class="col3 tr"><span class="btn"> <i class="icon-bubbles4 fs14 mr5"></i>在线咨询</span></div>
-				<div class="col3 tr"><span class="btn"><i class="icon-phone fs14 mr5"></i>打电话</span></div>
+				<div class="col4"><span>2017-08-16 </span></div>
+				<div class="col4 tr"><span class="btn"> <i class="icon-bubbles4 fs14 mr5"></i>在线咨询</span></div>
+				<div class="col4 tr"><span class="btn"><i class="icon-phone fs14 mr5"></i>打电话</span></div>
 			</div>
 		</div>
 	</div>
@@ -265,7 +264,7 @@
 <!--e:专业点评-->
 
 <!--s:用户点评-->
-<div class="tab-wrap wrap shadow-2 p10 mt10">
+<div class="tab-wrap wrap shadow-2 p10 mt10"  id="houseComment">
 	<h3>用户点评（18）</h3>
 	<div class="col mt20">
 		<div class="col02">
@@ -343,3 +342,22 @@
 </div>
 
 <include src="#/web/common/picPrewiew.html"></include>
+<include src="#/web/common/footerTips.html"></include>
+
+
+<div class="dialog-mask dialog-collection">
+	<div class="dialog p20 bd-radius-5">
+
+
+
+		<h3 class="tc">手机号验证</h3>
+		<p class="tc mt10">验证登录后才能进行点评、点赞和收藏哦～</p>
+		<p class="p10"><input type="text" class="ipt" placeholder="请输入您的手机号码"></p>
+		<p class="p10"><input type="text" class="ipt" placeholder="请输入验证码"></p>
+		<ul  class="p10 tc col">
+			<li class="col6"><a class="btn btn-info J-dialog-close">取消</a></li>
+			<li class="col6"><a class="btn btn-info J-dialog-close">确认</a></li>
+		</ul>
+
+	</div>
+</div>

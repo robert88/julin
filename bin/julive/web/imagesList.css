@@ -1,0 +1,6 @@
+.pic-list>li{
+	padding:10px;
+}
+.pic-list>li>img{
+	height:115px;
+}

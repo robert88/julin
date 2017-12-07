@@ -38,9 +38,10 @@
 }
 
 .discount-area {
-	height: 60px;
+	/* height: 60px; */
 	padding: 10px;
-	margin: 10px 0;
+	line-height: 30px;
+	vertical-align: middle;
 	background-color: #fff1f1;
 	border: 1px solid #f15a5d;
 	border-radius: 3px;
@@ -49,10 +50,9 @@
 .discount-area .btn-dis {
 	float: right;
 	width: 100px;
-	height: 31px;
 	color: #fff;
 	text-align: center;
-	margin-top: 10px;
+	/* margin-top: 4px; */
 	border-radius: 3px;
 	background-color: #ff6d6f;
 }
@@ -64,7 +64,7 @@
 	text-overflow: ellipsis;
 	overflow: hidden;
 }
-/**户型*/
+/**æˆ·åž‹*/
 .Huxing-wrap .info{
 	text-align: center;
 }
@@ -86,7 +86,7 @@
 }
 .free-search-mobile{position:relative;line-height: 36px;}
 .free-search-mobile .ipt{
-    line-height: 37px;
+    line-height: 47px;
 }
 .free-search-mobile .btn{
     position: absolute;
