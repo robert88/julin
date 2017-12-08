@@ -148,12 +148,16 @@ function replaceIncludeHtml(currFileData,includeTag,subFile,subFiles){
 	subFiles[subFile] = 1;
 	return currFileData;
 }
-function handleREM(files){
+function handleREM(files,flag){
 		for(var i=0;i<files.length;i++){
-			var file = files[i]
+			var file = files[i];
+			flag&&console.log(file)
 			var fileData = wake.readData(file);
-			console.log(fileData)
-			var lastData = fileData.replace(/\d+(\.\d+)?px/gm,function(m){ var a= parseFloat(m)||0;return (a/100+"rem")})
+			var lastData = fileData.replace(/\d+(\.\d+)?px/gm,function(m){ var a= parseFloat(m)||0;return (a/100+"rem")});
+
+			// if(file=="./bulid/julive/public/css/common/main.css"){
+			// 	console.log(lastData)
+			// }
 			wake.writeData(file,lastData)
 		}
 }
@@ -161,9 +165,11 @@ function copyPublic(inPath,outpath){
 	console.log("-------copy public:".red,inPath," to:".green,outpath);
 	var out = getBuildPath(inPath,outpath);
 
-	wake.copyDir(inPath,out);
-	handleREM(wake.findFile(out,"css",true))
-	console.log(wake.findFile(out,"css",true))
+	wake.copyDir(inPath,out,function () {
+		console.log("ok",wake.findFile(out,"css",true))
+		handleREM(wake.findFile(out,"css",true),1)
+	});
+
 
 }
 

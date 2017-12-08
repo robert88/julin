@@ -4,7 +4,7 @@ select, input {
 	font-size: inherit;
 	outline: 0;
 	outline-offset:0;
-	border: 1px solid #e1e1e1;
+	border: 0.01rem solid #e1e1e1;
 }
 select{
 	box-sizing: content-box;
@@ -16,7 +16,7 @@ input[type=radio], input[type=checkbox] {
 
 input:focus, textarea:focus, button:focus, select:focus {
 	outline: 0;
-	border: 1px solid #01cd9a
+	border: 0.01rem solid #01cd9a
 }
 select {
 	/*很关键：将默认的select选择框样式清除*/
@@ -44,11 +44,11 @@ fieldset {
 
 .ipt-label-block{
 	display: block;
-	line-height: 400px;
-	height: 400px;
+	line-height: 4rem;
+	height: 4rem;
 	position:relative;
-	padding:0px 20% 0px 20%;
-	margin-bottom: 96px;
+	padding:0rem 20% 0rem 20%;
+	margin-bottom: 0.96rem;
 }
 .ipt-label{
 	position:absolute;
@@ -56,8 +56,8 @@ fieldset {
 	padding-right:3%;
 	left:0;
 	text-align: right;
-	top: 2px;
-	height: 400px;
+	top: 0.02rem;
+	height: 4rem;
 }
 .ipt-block{
 	display: block;
@@ -73,74 +73,74 @@ fieldset {
 }
 .ipt{
 	display: inline-block;
-	line-height: 38px;
+	line-height: 0.38rem;
 	width:100%;
 	box-sizing: border-box;
-	padding-left:5px;
-	border: 1px solid #e1e1e1;
+	padding-left:0.05rem;
+	border: 0.01rem solid #e1e1e1;
 }
 
 .ipt-prepend [class^="icon-"],
 .ipt-prepend [class*=" icon-"]{
-	left: 7px;
+	left: 0.07rem;
 	top: 50%;
-	margin-top: -400px;
+	margin-top: -4rem;
 }
 .ipt-prepend .ipt{
-	padding-left:30px;
+	padding-left:0.3rem;
 }
 .ipt-append.ipt-label-block{
-	padding:0px 38px 0px 100px
+	padding:0rem 0.38rem 0rem 1rem
 }
 .ipt-prepend.ipt-label-block{
-	padding: 0px 33px 0px 100px;
+	padding: 0rem 0.33rem 0rem 1rem;
 }
 
 .ipt-append [class^="icon-"],
 .ipt-append [class*=" icon-"]{
 	top: 50%;
-	margin-top: -7px;
-	right: -37px;
-	width: 23px;
+	margin-top: -0.07rem;
+	right: -0.37rem;
+	width: 0.23rem;
 }
 .ipt-append .ipt{
-	 padding-right:30px;
+	 padding-right:0.3rem;
 }
 .ipt-btn-append{
-	border-radius: 5px;
+	border-radius: 0.05rem;
 	overflow: hidden;
 	background: #fff;
 }
 .ipt-btn-append .btn{
 	position: absolute;
-	right:0px;
-	top: 0px;
-	height: 544px;
-	border-radius: 0 5px 5px 0;
+	right:0rem;
+	top: 0rem;
+	height: 5.44rem;
+	border-radius: 0 0.05rem 0.05rem 0;
 }
 .ipt-btn-append .ipt{
 	border: none;
-	padding-right:80px;
+	padding-right:0.8rem;
 	width:92%;
 	background: none;
 }
 .ipt-radius .ipt{
-	border-radius: 5px;
+	border-radius: 0.05rem;
 }
 .form-sea .ipt{
 background: #1f2229;
 }
 .form-sea .ipt{
 	background: #1f2229;
-	-moz-box-shadow:5px 5px 5px #1d2025 inset;               /* For Firefox3.6+ */
-	-webkit-box-shadow:5px 5px 5px #1d2025 inset;            /* For Chrome5+, Safari5+ */
-	box-shadow:5px 5px 5px #1d2025 inset;                    /* For Latest Opera */
-	border:1px solid transparent;
+	-moz-box-shadow:0.05rem 0.05rem 0.05rem #1d2025 inset;               /* For Firefox3.6+ */
+	-webkit-box-shadow:0.05rem 0.05rem 0.05rem #1d2025 inset;            /* For Chrome5+, Safari5+ */
+	box-shadow:0.05rem 0.05rem 0.05rem #1d2025 inset;                    /* For Latest Opera */
+	border:0.01rem solid transparent;
 	color:#fff;
 }
 .form-sea .focus .ipt{
 	color: #00ce9a;
-	border:1px solid #00ce9a;
+	border:0.01rem solid #00ce9a;
 }
 .form-sea .focus .ipt::-webkit-input-placeholder { /* WebKit browsers */
 	color: #00ce9a;
@@ -161,7 +161,7 @@ background: #1f2229;
 	display:inline-block;
 }
 .validErr input,.validErr select{
-	border:1px solid #da0e0e;
+	border:0.01rem solid #da0e0e;
 }
 .validItem{
 	position:relative;
@@ -170,7 +170,7 @@ background: #1f2229;
 	display: none;
 	position: absolute;
 	top:100%;
-	line-height: 23px;
+	line-height: 0.23rem;
 }
 .validErr .validErrMsg{
 	color:#da0e0e;
@@ -180,8 +180,8 @@ background: #1f2229;
 	display: none;
 	position: absolute;
 	top: 50%;
-	margin-top: -13px;
-	right: -30px;
+	margin-top: -0.13rem;
+	right: -0.3rem;
 }
 .validErr .validIcon{
 	color:#da0e0e;
@@ -190,24 +190,24 @@ background: #1f2229;
 .form-checkbox{
 	display: inline-block;
 	background:url(../images/iconItem.png) no-repeat;
-	background-position: -193px -119px;
-	width: 22px;
-	height: 21px;
+	background-position: -1.93rem -1.19rem;
+	width: 0.22rem;
+	height: 0.21rem;
 }
 .form-checkbox.checked{
-	background-position: -161px -119px;
+	background-position: -1.61rem -1.19rem;
 }
 .form-checkbox input{
 	display: none;
 }
 .ipt-register{
 	background-image: url(../images/btnbg.png);
-	background-position: 0px -196px;
-	background-size:291px 384px;
-	width: 161px;
-	height: 34px;
-	background-position: 0px -196px;
-	background-size: 181% 480px;
+	background-position: 0rem -1.96rem;
+	background-size:2.91rem 3.84rem;
+	width: 1.61rem;
+	height: 0.34rem;
+	background-position: 0rem -1.96rem;
+	background-size: 181% 4.8rem;
 	width: 100%;
-	height: 34px;
+	height: 0.34rem;
 }

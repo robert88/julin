@@ -1,0 +1,9 @@
+
+.footer{background-color: #464754;color:#999;position:absolute;top:0;left:0;width: 100%;}
+.footer a{
+text-decoration: underline;
+}
+.footer-wrap{
+	height: 60px;
+	position: relative;
+}

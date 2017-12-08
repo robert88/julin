@@ -5,21 +5,10 @@
 	height: 32px;
 	background-repeat: no-repeat;
 	background-image: url("../../images/sprite.svg");
-	-moz-background-size: 32px 1472px;
-	-o-background-size: 32px 1472px;
-	background-size: 32px 1492px;
-	-webkit-transform: scale(1.6875);
-	-moz-transform: scale(1.6875);
-	-ms-transform: scale(1.6875);
-	-o-transform: scale(1.6875);
-	transform: scale(1.6875);
+	transform: scale(1.5);
+	background-size: 32px 1460px;
 }
 .ico.icon_b_huanjing, .ico.icon_huanjing {
-	display: inline-block;
-	width: 32px;
-	height: 32px;
-	margin: .110000px;
-	background-size: 100%
 }
 
 .ico.icon_agent {
@@ -35,7 +24,7 @@
 }
 
 .ico.icon_ershoufang {
-	background-position: 0 -126px
+	background-position: 0 -122px;
 }
 
 .ico.icon_maifang {
@@ -43,19 +32,19 @@
 }
 
 .ico.icon_wiki {
-	background-position: 0 -210px
+	background-position: 0 -206px;
 }
 
 .ico.icon_xinfang {
-	background-position: 0 -252px
+	background-position: 0 -246px;
 }
 
 .ico.icon_xuequfang {
-	background-position: 0 -294px
+	background-position: 0 -287px;
 }
 
 .ico.icon_wenda {
-	background-position: 0 -336px
+	background-position: 0 -328px;
 }
 
 .ico.icon_zufang {
@@ -67,7 +56,7 @@
 }
 
 .ico.icon_zhinan {
-	background-position: 0 -672px
+	background-position: 0 -656px;
 }
 
 .ico.icon_gujia {
@@ -118,11 +107,11 @@
 }
 
 .ico.icon_app {
-	background-position: 0 -1218px
+	background-position: 0 -1191px;
 }
 
 .ico.icon_linshen {
-	background-position: 0 -1260px
+	background-position: 0 -1233px;
 }
 
 .ico.icon_goufang {
@@ -175,14 +164,7 @@
 ::-moz-placeholder{color:#999;font-size: 16px;}                  /* Firefox版本19+ */
 :-ms-input-placeholder{color:#999;font-size: 16px;}
 
-/*footer*/
-.footer{
-	background-color: #464754;
-	color:#999;
-}
-.footer a{
-	text-decoration: underline;
-}
+
 
 .nlb {
 	font-size: 13.6px;

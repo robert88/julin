@@ -1,6 +1,6 @@
 
 
-/*è¾¹æ¡†é¢œè‰²*/
+/*边框颜色*/
 
 .bd-white {
     border-color: #fff;
@@ -148,7 +148,7 @@
 }
 
 
-/*æ–‡å­—é¢œè‰²*/
+/*文字颜色*/
 
 .t-white {
     color: #fff;
@@ -312,7 +312,7 @@
     border-color:#48b3e2;
     color:#fff;
 }
-/*æ–‡å­—hoveræ•ˆæžœ*/
+/*文字hover效果*/
 .hr-white:hover {
     color: #fff;
 }
@@ -371,9 +371,9 @@ body{
     background: #fff;
 }
 /*tab*/
-.tab-wrap .tab-head {height: 40px;margin: 10px 0;line-height: 40px;text-align: center;}
+.tab-wrap .tab-head {height: 0.4rem;margin: 0.1rem 0;line-height: 0.4rem;text-align: center;}
 .tab-wrap .tab-head .tab-head-item:first-child{border-left: none;}
-.tab-wrap .tab-head .tab-head-item {position: relative;margin-left: -1px;display: inline-block;border-left: 1px solid #e1e1e1;}
+.tab-wrap .tab-head .tab-head-item {position: relative;margin-left: -0.01rem;display: inline-block;border-left: 0.01rem solid #e1e1e1;}
 .tab-wrap .tab-head .tab-head-item.active {color: #0046ad;}
 .tab-wrap .tab-body .tab-body-item {display: none}
 .tab-wrap .tab-body .tab-body-item.active {display: block}
@@ -382,9 +382,9 @@ body{
 .selectWrap{position: relative;}
 .selectWrap .select{}
 .selectWrap .selectText{border: none;background: none;}
-.selectWrap .selectBtn{width: 30px;position: absolute;height: 30px;top: 0px;right: 16px;color: #999;}
+.selectWrap .selectBtn{width: 0.3rem;position: absolute;height: 0.3rem;top: 0rem;right: 0.16rem;color: #999;}
 .selectWrap .option{width: 100%;border-top: none;left: 0;color: #fff;background: #0046ad;position: absolute;display: none;}
-.selectWrap .option p{height: 26.666666666666668px;line-height: 26.666666666666668px;font-size: 14px;}
+.selectWrap .option p{height: 0.26666666666666666rem;line-height: 0.26666666666666666rem;font-size: 0.14rem;}
 .selectWrap .option p:hover{background: #0046ad;color: #fff;}
 .selectWrap.active .option{top: 100%;display: block;}
 
@@ -402,7 +402,7 @@ body{
     z-index: 100;
     display: none;
 }
-.dialog{position:absolute;left:5%;background: #fff;width: 90%;	box-shadow: 0 3px 5px 0 rgba(0,0,0,.5);}
-@media (min-width: 640px) {
-    .dialog{max-width: 630px;left:50%;margin-left: -315px;}
+.dialog{position:absolute;left:5%;background: #fff;width: 90%;	box-shadow: 0 0.03rem 0.05rem 0 rgba(0,0,0,.5);}
+@media (min-width: 6.4rem) {
+    .dialog{max-width: 6.3rem;left:50%;margin-left: -3.15rem;}
 }

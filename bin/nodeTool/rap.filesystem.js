@@ -239,7 +239,7 @@ var mkdir =function(dirpath,dirname){
         }  
 }
 /*拷贝文件*/
-var copyFile=function(infile,outfile){
+var copyFile=function(infile,outfile,callback){
              
 
             if(isExist(infile)){
@@ -249,21 +249,41 @@ var copyFile=function(infile,outfile){
 
 				if(!isExist(outfile)||readData(infile)!=readData(outfile)){
 					//console.log("copy file:".green,infile,"to".green,outfile)
-					fs.createReadStream(infile,{encoding:"binary"}).pipe( fs.createWriteStream(outfile,{encoding:"binary"}) );
+					fs.createReadStream(infile,{encoding:"binary"}).on("end",function () {
+						if(typeof callback=="function"){
+							callback(infile,outfile);
+						}
+					}).pipe( fs.createWriteStream(outfile,{encoding:"binary"}) );
+
+				}else{
+					if(typeof callback=="function"){
+						callback(infile,outfile);
+					}
 				}
 
-            }
+            }else{
+				if(typeof callback=="function"){
+					callback(infile,outfile);
+				}
+			}
 
 }
 /*拷贝目录*/
 var copyDir=function(srcDir, workdir,callback){
 
  var files = getFileList(srcDir, true);
-
+var len = files.length;
 	 for(var i=0;files&&i<files.length;i++){
 	 	var tempSrc = files[i].replace(srcDir,"")
 	 	var tempWork = (workdir+"/"+tempSrc).replace(/\/+/g,"/")
-		copyFile(files[i],tempWork)
+		copyFile(files[i],tempWork,function(){
+			len--;
+			if(len<=0){
+				if(typeof callback=="function"){
+					callback(files);
+				}
+			}
+		})
 	 }
 }
 //遍历文件

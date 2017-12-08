@@ -19,8 +19,11 @@ $(".photoBox").find(".close").click(function(){
 	$(".photoBox").hide();
 });
 
+
 window.initPicview =function (list,imgs) {
-	$(".photoBox").show()
+	$(".photoBox").show();
+	$(".photo-c .swiper-container").height($(window).height()-$(".photo-t").height()-$(".photo-b").height())
+
 	swiper3.removeAllSlides();
 	swiper4.removeAllSlides();
 	for(var i=0;i<list.length;i++){

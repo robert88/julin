@@ -1,25 +1,14 @@
 @charset "UTF-8";
 .ico{
 	display: inline-block;
-	width: 32px;
-	height: 32px;
+	width: 0.32rem;
+	height: 0.32rem;
 	background-repeat: no-repeat;
 	background-image: url("../../images/sprite.svg");
-	-moz-background-size: 32px 1472px;
-	-o-background-size: 32px 1472px;
-	background-size: 32px 1492px;
-	-webkit-transform: scale(1.6875);
-	-moz-transform: scale(1.6875);
-	-ms-transform: scale(1.6875);
-	-o-transform: scale(1.6875);
-	transform: scale(1.6875);
+	transform: scale(1.5);
+	background-size: 0.32rem 14.6rem;
 }
 .ico.icon_b_huanjing, .ico.icon_huanjing {
-	display: inline-block;
-	width: 32px;
-	height: 32px;
-	margin: .110000px;
-	background-size: 100%
 }
 
 .ico.icon_agent {
@@ -27,117 +16,117 @@
 }
 
 .ico.icon_chengjiao {
-	background-position: 0 -42px
+	background-position: 0 -0.42rem
 }
 
 .ico.icon_ditie {
-	background-position: 0 -84px
+	background-position: 0 -0.84rem
 }
 
 .ico.icon_ershoufang {
-	background-position: 0 -126px
+	background-position: 0 -1.22rem;
 }
 
 .ico.icon_maifang {
-	background-position: 0 -168px
+	background-position: 0 -1.68rem
 }
 
 .ico.icon_wiki {
-	background-position: 0 -210px
+	background-position: 0 -2.06rem;
 }
 
 .ico.icon_xinfang {
-	background-position: 0 -252px
+	background-position: 0 -2.46rem;
 }
 
 .ico.icon_xuequfang {
-	background-position: 0 -294px
+	background-position: 0 -2.87rem;
 }
 
 .ico.icon_wenda {
-	background-position: 0 -336px
+	background-position: 0 -3.28rem;
 }
 
 .ico.icon_zufang {
-	background-position: 0 -378px
+	background-position: 0 -3.78rem
 }
 
 .ico.icon_haiwai {
-	background-position: 0 -420px
+	background-position: 0 -4.2rem
 }
 
 .ico.icon_zhinan {
-	background-position: 0 -672px
+	background-position: 0 -6.56rem;
 }
 
 .ico.icon_gujia {
-	background-position: 0 -714px
+	background-position: 0 -7.14rem
 }
 .ico.icon_b_wenda {
-	background-position: 0 -756px
+	background-position: 0 -7.56rem
 }
 
 .ico.icon_b_baike {
-	background-position: 0 -798px
+	background-position: 0 -7.98rem
 }
 
 .ico.icon_b_lanmu {
-	background-position: 0 -840px
+	background-position: 0 -8.4rem
 }
 
 .ico.icon_b_fangjia {
-	background-position: 0 -882px
+	background-position: 0 -8.82rem
 }
 
 .ico.icon_b_gujia {
-	background-position: 0 -924px
+	background-position: 0 -9.24rem
 }
 
 .ico.icon_b_xiaoqu {
-	background-position: 0 -966px
+	background-position: 0 -9.66rem
 }
 
 .ico.icon_b_jingjiren {
-	background-position: 0 -1008px
+	background-position: 0 -10.08rem
 }
 
 .ico.icon_b_shuifei {
-	background-position: 0 -1050px
+	background-position: 0 -10.5rem
 }
 
 .ico.icon_b_daikuan {
-	background-position: 0 -1092px
+	background-position: 0 -10.92rem
 }
 
 .ico.icon_b_kefu {
-	background-position: 0 -1134px
+	background-position: 0 -11.34rem
 }
 
 .ico.icon_xiaoqu {
-	background-position: 0 -1176px
+	background-position: 0 -11.76rem
 }
 
 .ico.icon_app {
-	background-position: 0 -1218px
+	background-position: 0 -11.91rem;
 }
 
 .ico.icon_linshen {
-	background-position: 0 -1260px
+	background-position: 0 -12.33rem;
 }
 
 .ico.icon_goufang {
-	background-position: 0 -1302px
+	background-position: 0 -13.02rem
 }
 
 .ico.icon_b_shoufu {
-	background-position: 0 -1344px
+	background-position: 0 -13.44rem
 }
 
 .ico.icon_b_lanrenzhaofang {
-	background-position: 0 -1386px
+	background-position: 0 -13.86rem
 }
 .ico.icon_tel {
-	background-position: 0 -1460px
+	background-position: 0 -14.6rem
 }
 
 .bg-icon{
@@ -145,51 +134,44 @@
 	background-repeat: no-repeat;
 	background-image: url("../../images/icon.png");
 	vertical-align: middle;
-	width:20px;
-	height: 10px;
+	width:0.2rem;
+	height: 0.1rem;
 }
 .bg-icon.icon-down{
-	background-position: -786px 0px;
+	background-position: -7.86rem 0rem;
 
 }
 .bg-icon.icon-search{
-	background-position: -427px 3px;
-	width: 40px;
-	height: 40px;
+	background-position: -4.27rem 0.03rem;
+	width: 0.4rem;
+	height: 0.4rem;
 }
 .bg-icon.icon-user{
-	background-position: -492px 0px;
-	height: 24px;
+	background-position: -4.92rem 0rem;
+	height: 0.24rem;
 }
 .bg-icon.icon-back{
-	background-position: -524px 0px;
-	height: 24px;
+	background-position: -5.24rem 0rem;
+	height: 0.24rem;
 }
 .bg-icon.icon-home{
-	background-position: -590px 0px;
-	height: 24px;
-	width: 28px;
+	background-position: -5.9rem 0rem;
+	height: 0.24rem;
+	width: 0.28rem;
 }
-::-webkit-input-placeholder{color:#999;font-size: 16px;}    /* 使用webkit内核的浏览器 */
-:-moz-placeholder{color:#999;font-size: 16px;}                  /* Firefox版本4-18 */
-::-moz-placeholder{color:#999;font-size: 16px;}                  /* Firefox版本19+ */
-:-ms-input-placeholder{color:#999;font-size: 16px;}
+::-webkit-input-placeholder{color:#999;font-size: 0.16rem;}    /* 使用webkit内核的浏览器 */
+:-moz-placeholder{color:#999;font-size: 0.16rem;}                  /* Firefox版本4-18 */
+::-moz-placeholder{color:#999;font-size: 0.16rem;}                  /* Firefox版本19+ */
+:-ms-input-placeholder{color:#999;font-size: 0.16rem;}
 
-/*footer*/
-.footer{
-	background-color: #464754;
-	color:#999;
-}
-.footer a{
-	text-decoration: underline;
-}
+
 
 .nlb {
-	font-size: 13.6px;
-	padding: 3px 5px;
-	margin-bottom: 10px;
-	margin-right: 10px;
-	border-radius: 2px;
+	font-size: 0.136rem;
+	padding: 0.03rem 0.05rem;
+	margin-bottom: 0.1rem;
+	margin-right: 0.1rem;
+	border-radius: 0.02rem;
 }
 
 .nlb-1 {
@@ -214,17 +196,17 @@
 .lb-area {
 	position: relative;
 	vertical-align: middle;
-	top: -5px;
+	top: -0.05rem;
 }
 
 .lb-area .lb {
 	float: left;
-	margin: 4px 8px 0 0;
+	margin: 0.04rem 0.08rem 0 0;
 	line-height: 1.5;
-	padding: 0 10px;
+	padding: 0 0.1rem;
 	box-sizing: border-box;
 	color: #66d2b4;
-	border: 1px solid #66d2b4;
+	border: 0.01rem solid #66d2b4;
 	overflow: hidden;
 }
 

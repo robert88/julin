@@ -33,21 +33,30 @@
 	
 	<body>
 
-	
+	<style  type='text/css'> /*../julive/web/common/footer.css*/ .footer{background-color: #464754;color:#999;position:absolute;top:0;left:0;width: 100%;} .footer a{ text-decoration: underline; } .footer-wrap{ height: 0.6rem; position: relative; }</style>
 	
 <!--s:底部-->
-<div class="footer wrap col plr20 ptb5 fs12">
-	<div class="col8">
-		<p>北京侃家科技有限公司</p>
-		<p class="icp">网络经营许可证 京ICP备 15012099号</p>
-	</div>
-	<div class="col4 relative pt10">
-		<a class="pc-link mr20" href="http://www.julive.com">电脑版</a>
-		<a class="map" href="/sitemap.html">网站地图</a>
+<div class="footer-wrap wrap">
+	<div class="footer col plr20 ptb5 fs12">
+		<div class="col8">
+			<p>北京侃家科技有限公司</p>
+			<p class="icp">网络经营许可证 京ICP备 15012099号</p>
+		</div>
+		<div class="col4 relative pt10">
+			<a class="pc-link mr20" href="http://www.julive.com">电脑版</a>
+			<a class="map" href="/sitemap.html">网站地图</a>
+		</div>
 	</div>
 </div>
-<!--e:底部-->
-	
+	<script>$(function(){;(function(){ var innerModule = {};var innerRequire = function(index){ return innerModule[index]; }; /*../julive/web/common/footer.js*/(function() {
+    function resizeFooter() {
+        var top = $(".footer-wrap").offset().top + $(".footer-wrap").height() - $(window).height();
+        $(".footer").css(top > 0 ? top : 0);
+    }
+    $(window).on("resize", function() {
+        resizeFooter();
+    });
+})();})();})</script>
 
     <div id="pageLoad">
         <div class="loader">
@@ -61,18 +70,6 @@
         </div>
     </div>
 
-	<!--s:底部-->
-	<div class="footer wrap col plr20 ptb5 fs12">
-		<div class="col8">
-			<p>北京侃家科技有限公司</p>
-			<p class="icp">网络经营许可证 京ICP备 15012099号</p>
-		</div>
-		<div class="col4 relative pt10">
-			<a class="pc-link mr20" href="http://www.julive.com">电脑版</a>
-			<a class="map" href="/sitemap.html">网站地图</a>
-		</div>
-	</div>
-	<!--e:底部-->
 
 	</body>
 
