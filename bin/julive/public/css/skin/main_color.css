@@ -404,5 +404,5 @@ body{
 }
 .dialog{position:absolute;left:5%;background: #fff;width: 90%;	box-shadow: 0 3px 5px 0 rgba(0,0,0,.5);}
 @media (min-width: 640px) {
-    .dialog{max-width: 640px;left:50%;margin-left: -320px;}
+    .dialog{max-width: 630px;left:50%;margin-left: -315px;}
 }

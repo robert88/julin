@@ -1,0 +1,15 @@
+.table-head{
+color: #333;
+background-color: #d4eef9;
+}
+
+.change-up{
+	color: #ff6e72;
+}
+.change-down{
+	color: #4acda9;
+}
+.table-cell{background: #fafafa}
+.table-cell li{
+	border-bottom: solid 1px #fff;
+}

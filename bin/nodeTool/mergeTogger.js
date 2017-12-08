@@ -152,7 +152,8 @@ function handleREM(files){
 		for(var i=0;i<files.length;i++){
 			var file = files[i]
 			var fileData = wake.readData(file);
-			var lastData = fileData.replace(/\d+(\.\d+)?px/g,function(m){ var a= parseFloat(m)||0;return (a/16+"rem")})
+			console.log(fileData)
+			var lastData = fileData.replace(/\d+(\.\d+)?px/gm,function(m){ var a= parseFloat(m)||0;return (a/100+"rem")})
 			wake.writeData(file,lastData)
 		}
 }
@@ -160,7 +161,9 @@ function copyPublic(inPath,outpath){
 	console.log("-------copy public:".red,inPath," to:".green,outpath);
 	var out = getBuildPath(inPath,outpath);
 
-	wake.copyDir(inPath,out)
+	wake.copyDir(inPath,out);
+	handleREM(wake.findFile(out,"css",true))
+	console.log(wake.findFile(out,"css",true))
 
 }
 
@@ -187,3 +190,5 @@ var parseFile = "../julive/indexStatic.html";
 merge(parseFile,bulidPath,allHtmlPath);
 
 copyPublic("../julive/public",bulidPath);
+
+

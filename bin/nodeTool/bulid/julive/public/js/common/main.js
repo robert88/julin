@@ -101,8 +101,8 @@
 			refrence:$(window).width(),
 			refrenceMax:640,
 			refrenceMin:300,
-			setMax:125,
-			setMin:75,
+			setMax:703.125,//625*18/16
+			setMin:468.75,
 		},function(rem){
 			$("html").css("font-size", rem + "%");
 		});

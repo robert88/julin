@@ -33,16 +33,44 @@
 	
 	<body>
 
-	<style  type='text/css'> /*../julive/web/common/searchHouse.css*/.search-input-wrap{background: #f5f5f5} .search-input{ position: relative; padding: 0.1rem 0.2rem; display: block; } .search-input input{ border:none; padding: 0.06rem;  } .search-user{position: absolute;top: 50%;background: rgba(255,255,255,0.9);border-radius: 50%;padding: 0.1rem 0.16rem;margin-top: -0.26rem;right: 0;text-align: center;} .search-input a{ position: absolute; right: 0.2rem; height: 0.3rem; border-left: 0.01rem solid #e1e1e1; width: 0.45rem; text-align: center; margin-top: -0.15rem; top: 50%; } .search-input a span{ position: absolute; margin-top: -0.1rem; top: 50%; right: 0.12rem; } </style>
-	<!--s:头部查询-->
-<div class="wrap search-input-wrap">
-	<span class="search-input">
-		<input type="text" class="ipt" placeholder="请输入楼盘名、区域">
-		<a><span class="icon-search"></span></a>
-	</span>
+	<style  type='text/css'> /*../julive/web/common/goTop.css*/.gotop { position: fixed; bottom: 0.2rem; right: 0.1rem; z-index: 98; width: 0.4rem; height: 0.4rem; border-radius: 50%; box-shadow: 0 0 0.03rem rgba(0, 0, 0, 0.3); line-height: 0.38rem; text-align: center; background: #fff; } .toorbar-sort { color: #333; position: fixed; bottom: 0.8rem; right: 0.1rem; width: 0.4rem; z-index: 98; height: 0.4rem; border-radius: 50%; box-shadow: 0 0 0.03rem rgba(0, 0, 0, 0.3); line-height: 0.38rem; background: #fff; text-align: center; } .toorbar-sort-mask { display: none; position: fixed; pointer-events: auto; top: 0; left: 0; width: 100%; height: 100%; background-color:rgba(0,0,0,.6); z-index: 998; } .toorbar-condition { position: absolute; bottom: 0; width: 100%;  background: #fff; z-index: 999; } .toorbar-condition li{ margin: 0.1rem 0; text-align: center; } .toorbar-condition li.on a{ color: #48b3e2; }</style>
+	<!--s:头部-->
+<div class="toorbar-sort">
+	<i class="icon-sort"></i>
 </div>
-<!--e:头部查询-->
-	
+<!--e:头部-->
+<!--s:头部-->
+<div class="gotop">
+	<i class="icon-chevrons-up"></i>
+</div>
+<!--e:头部-->
+<div class="toorbar-sort-mask">
+	<ul class="toorbar-condition">
+		<li class="on">
+			<a class="a-wrap">不限</a>        </li>
+		<li >
+			<a class="a-wrap">看房人次最多</a>        </li>
+		<li >
+			<a class="a-wrap">单价最低</a>        </li>
+		<li>
+			<a class="a-wrap">单价最高</a>        </li>
+		<li>
+			<a class="a-wrap">成交量最高</a>        </li>
+	</ul>
+</div>
+	<script>$(function(){;(function(){ var innerModule = {};var innerRequire = function(index){ return innerModule[index]; }; /*../julive/web/common/goTop.js*/(function() {
+    $(".gotop").click(function() {
+        $("html,body").stop(true, true).animate({
+            scrollTop: 0
+        });
+    });
+    $(".toorbar-sort").click(function() {
+        $(".toorbar-sort-mask").show();
+    });
+    $(".toorbar-sort-mask").click(function() {
+        $(".toorbar-sort-mask").hide();
+    });
+})();})();})</script>
 
     <div id="pageLoad">
         <div class="loader">

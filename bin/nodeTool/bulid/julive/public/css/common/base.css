@@ -1,5 +1,5 @@
 
-/*重构css*/
+/*é‡æž„css*/
 h1, h2, h3, h4, h5, h6, div, ul, li, dl, dt, dd, ol, pre, form, fieldset, input, textarea, p, blockquote, th, td, hr, img, select {
 	padding: 0;
 	margin: 0;
@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6, div, ul, li, dl, dt, dd, ol, pre, form, fieldset, input,
 html, body {
 	padding: 0;
 	margin: 0;
-	font-family: 'Microsoft Yahei', "細明體", tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+	font-family: 'Microsoft Yahei', "ç´°æ˜Žé«”", tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
 	color: #666;
 }
 body{
@@ -56,7 +56,7 @@ a.a-wrap{
 	width: 100%;
 }
 
-/*浮动布局 宽度*/
+/*æµ®åŠ¨å¸ƒå±€ å®½åº¦*/
 .col:after {
 	content: " ";
 	display: block;
@@ -143,7 +143,7 @@ a.a-wrap{
 	width: 90%
 }
 
-/*响应布局 宽度*/
+/*å“åº”å¸ƒå±€ å®½åº¦*/
 .fw12 {
 	width: 100%;
 }
@@ -205,7 +205,7 @@ a.a-wrap{
 .fh50 {
 	height: 50%
 }
-/*边框*/
+/*è¾¹æ¡†*/
 .bd {
 	border: 1px solid #e1e1e1
 }
@@ -325,7 +325,7 @@ a.a-wrap{
 .t-overflow{
 	text-overflow: ellipsis;
 	overflow: hidden;
-	/* white-space:nowrap; */
+	white-space:nowrap;
 }
 .t-clip{
 	text-overflow:clip;
@@ -333,12 +333,12 @@ a.a-wrap{
 	white-space:nowrap;
 }
 
-/*文字对齐*/
+/*æ–‡å­—å¯¹é½*/
 .vm {
 	vertical-align: middle;
 }
 
-/*具有继承功能*/
+/*å…·æœ‰ç»§æ‰¿åŠŸèƒ½*/
 .tc {
 	text-align: center;
 }
@@ -352,7 +352,7 @@ a.a-wrap{
 }
 
 /*
-文字粗细
+æ–‡å­—ç²—ç»†
 */
 
 .fb {
@@ -364,15 +364,15 @@ a.a-wrap{
 }
 
 /*
-文字缩进
+æ–‡å­—ç¼©è¿›
 */
 
 .t2 {
-	text-indent: 2rem;
+	text-indent: 32px;
 }
 
 /*
-浮动
+æµ®åŠ¨
 */
 
 .fl {
@@ -392,7 +392,7 @@ a.a-wrap{
 	display: block;
 	clear: both;
 }
-/*居中*/
+/*å±…ä¸­*/
 
 .ct {
 	margin-right: auto;
@@ -406,7 +406,7 @@ a.a-wrap{
 
 
 /*
-*显示块方式
+*æ˜¾ç¤ºå—æ–¹å¼
 */
 .inline-block {
 	display: inline-block;
@@ -571,7 +571,7 @@ a.a-wrap{
 }
 
 /*text-shadow: h-shadow v-shadow blur color;*/
-/*水平阴影的位置(必需) 垂直阴影的位置(必需) 模糊的距离(可选) 阴影的颜色(可选)*/
+/*æ°´å¹³é˜´å½±çš„ä½ç½®(å¿…éœ€) åž‚ç›´é˜´å½±çš„ä½ç½®(å¿…éœ€) æ¨¡ç³Šçš„è·ç¦»(å¯é€‰) é˜´å½±çš„é¢œè‰²(å¯é€‰)*/
 /*Chrome(2.0.158.0 +)  Firefox (Gecko)(3.5 (1.9.1)+) Internet Explorer(10+)   Opera(9.5 +)   Safari (WebKit)(1.1 (100)+)*/
 
 .t-shadow-2 {

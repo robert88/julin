@@ -5,7 +5,7 @@
 
 .header-bg{
 	background:url(/public/images/head_bg.jpg);
-	padding: 19.84px .32px 234px;
+	padding: 19.84px 20px 234px;
 }
 .header-bg>h3{
 	text-align: center;
