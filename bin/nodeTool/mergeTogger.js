@@ -153,7 +153,15 @@ function handleREM(files,flag){
 			var file = files[i];
 			flag&&console.log(file)
 			var fileData = wake.readData(file);
-			var lastData = fileData.replace(/\d+(\.\d+)?px/gm,function(m){ var a= parseFloat(m)||0;return (a/100+"rem")});
+			var lastData = fileData.replace(/\d+(\.\d+)?px/gm,
+				function(m){
+					var a= parseFloat(m)||0;
+					if(a>2){
+						return (a/100+"rem")
+					}else{
+						return m
+					}
+				}).replace(/@media\s+\(min-width:\s+(\d+(\.\d+)?rem)\)/gm,function(m,m1){return m.replace(m1,parseFloat(m1)*100 + "px")});
 
 			// if(file=="./bulid/julive/public/css/common/main.css"){
 			// 	console.log(lastData)

@@ -33,7 +33,7 @@
 	
 	<body>
 
-	<style  type='text/css'> /*../julive/web/houseKnowledgeDetail.css*/.case-tips li{ float: left; padding:0.03rem 0.05rem; border-radius: 0.03rem; margin: 0.05rem; border:0.01rem solid #e1e1e1; } .content img{ width: 100%; }</style><style  type='text/css'> /*../julive/web/common/header.css*/ .header-wrap{position:relative;min-height: 0.5rem;} header{text-align: center;position: fixed;width: 100%;max-width: 6.4rem;min-width: 3rem;background:#fff;padding-top: 0.1rem;padding-bottom: 0.1rem;-moz-box-shadow: 0rem 0.01rem 0.02rem rgba(0, 0, 0, .3);-webkit-box-shadow: 0rem 0.01rem 0.02rem rgba(0, 0, 0, .3);box-shadow: 0rem 0.01rem 0.02rem rgba(0, 0, 0, .3);} header .back{position: absolute;left: 0.1rem;top:50%;height: 0.26rem;font-size: 0.38rem;margin-top: -0.13rem;} header .header-right{position:absolute;right: 0.2rem;top:50%;margin-top: -0.13rem;} </style>
+	<style  type='text/css'> /*../julive/web/houseKnowledgeDetail.css*/.case-tips li{ float: left; padding:0.03rem 0.05rem; border-radius: 0.03rem; margin: 0.05rem; border:1px solid #e1e1e1; } .content img{ width: 100%; }</style><style  type='text/css'> /*../julive/web/common/header.css*/ .header-wrap{position:relative;min-height: 0.5rem;} header{text-align: center;position: fixed;width: 100%;max-width: 6.4rem;min-width: 3rem;background:#fff;padding-top: 0.1rem;padding-bottom: 0.1rem;-moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, .3);-webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, .3);box-shadow: 0px 1px 2px rgba(0, 0, 0, .3);} header .back{position: absolute;left: 0.1rem;top:50%;height: 0.26rem;font-size: 0.38rem;margin-top: -0.13rem;} header .header-right{position:absolute;right: 0.2rem;top:50%;margin-top: -0.13rem;} .mobileCode{ position:relative; } .mobileCode .btn{ position:absolute; right: 0.12rem; top: 0.11rem; } </style>
 	<!--s:头部-->
 <div class="header-wrap wrap">
 <header>
@@ -44,14 +44,28 @@
 	</a>
 	<span class="header-right">
 		<a href="home.html"><i class="icon-home2"></i></a>
-		<a href="login.html"><i class="icon-user"></i></a>
+		<a class="loginBtn" ><i class="icon-user"></i></a>
 	</span>
 </header>
 </div>
 <!--e:头部-->
 
+
+<!--s:登陆弹窗-->
+<div class="dialog-mask login-dialog">
+	<div class="dialog p20 bd-radius-5">
+		<h3 class="p10 tc">手机快捷登录</h3>
+		<p class="p10 tc">未注册过的手机号将自动注册为居理新房账号；咨询师不会看到您的手机号码</p>
+		<p class="p10"><input type="text" class="ipt" placeholder="输入手机号"></p>
+		<p class="p10 mobileCode"><input type="text" class="ipt" placeholder="输入手机验证码"> <span class="btn btn-warn">获取验证码</span></p>
+		<p  class="p10 tc"><a class="btn btn-info J-dialog-close " style="display: block" href="loginSuccess.html">登录</a></p>
+
+	</div>
+</div>
+<!--e:登陆弹窗-->
+
 <!--s:详细内容-->
-<div class="wrap">
+<div class="wrap plr10">
 	<h3 class="tc mt20">经济适用房选房的技巧有哪些？</h3>
 	<p class="time fs12 tc mt20">发布时间：<span class="t-muted">2017-04-27 14:09:38</span></p>
 	<div class="content fs14 mt30">
@@ -69,14 +83,14 @@
 <!--e:头部查询-->
 
 <!--s:相关资讯推荐-->
-<div class="wrap">
-	<h3>相关资讯推荐</h3>
-	<ul class="case-list">
+<div class="wrap plr10">
+	<h3 class="">相关资讯推荐</h3>
+	<ul class="case-list mt10">
 		<li class="img"><img src="/public/images/info.jpg" alt="五和万科长阳天地"></li>
-		<li class="info">
+		<li class="info mt20">
 			<h4>西山燕庐</h4>
-			<div>2017-04-21 17:20:13 </div>
-			<div>
+			<div >2017-04-21 17:20:13 </div>
+			<div class="mt10">
 				<span class="nlb nlb-1">别墅</span>
 				<span class="nlb nlb-2">小产权</span>
 				<span class="nlb nlb-3">别墅</span>
@@ -97,7 +111,15 @@
 <!--:相关资讯推荐-->
 
 
-	
+
+	<script>$(function(){;(function(){ var innerModule = {};var innerRequire = function(index){ return innerModule[index]; }; /*../julive/web/common/header.js*/(function() {
+    $(".subscription-dialog-btn").click(function() {
+        dialog($(".subscription-dialog"));
+    });
+    $(".loginBtn").click(function() {
+        dialog($(".login-dialog"));
+    });
+})();})();})</script>
 
     <div id="pageLoad">
         <div class="loader">

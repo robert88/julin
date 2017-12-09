@@ -113,5 +113,22 @@
 	changeRem()
 })();
 
+/*简单弹窗*/
+function dialog($dialog) {
+	$dialog.show();
+	centerDialog($dialog.find(".dialog"));
+}
+function centerDialog($dialog) {
+	var t = ($(window).height()-$dialog.height())/2
+	t = t<0?0:t;
+	$dialog.css("top",t)
+}
+function closeDialog($dialog) {
+	$dialog.hide()
+}
+$(document).on("click",".J-dialog-close",function (e) {
+	closeDialog($(this).parents(".dialog-mask"))
+});
+
 
 

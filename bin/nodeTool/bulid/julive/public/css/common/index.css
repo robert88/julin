@@ -63,7 +63,7 @@
 	background-position: 0 -7.14rem
 }
 .ico.icon_b_wenda {
-	background-position: 0 -7.56rem
+	background-position: 0 -7.39rem;
 }
 
 .ico.icon_b_baike {
@@ -126,7 +126,7 @@
 	background-position: 0 -13.86rem
 }
 .ico.icon_tel {
-	background-position: 0 -14.6rem
+	background-position: 0 -14.34rem;
 }
 
 .bg-icon{
@@ -138,7 +138,7 @@
 	height: 0.1rem;
 }
 .bg-icon.icon-down{
-	background-position: -7.86rem 0rem;
+	background-position: -7.86rem 0px;
 
 }
 .bg-icon.icon-search{
@@ -147,15 +147,15 @@
 	height: 0.4rem;
 }
 .bg-icon.icon-user{
-	background-position: -4.92rem 0rem;
+	background-position: -4.92rem 0px;
 	height: 0.24rem;
 }
 .bg-icon.icon-back{
-	background-position: -5.24rem 0rem;
+	background-position: -5.24rem 0px;
 	height: 0.24rem;
 }
 .bg-icon.icon-home{
-	background-position: -5.9rem 0rem;
+	background-position: -5.9rem 0px;
 	height: 0.24rem;
 	width: 0.28rem;
 }
@@ -171,7 +171,7 @@
 	padding: 0.03rem 0.05rem;
 	margin-bottom: 0.1rem;
 	margin-right: 0.1rem;
-	border-radius: 0.02rem;
+	border-radius: 2px;
 }
 
 .nlb-1 {
@@ -206,7 +206,7 @@
 	padding: 0 0.1rem;
 	box-sizing: border-box;
 	color: #66d2b4;
-	border: 0.01rem solid #66d2b4;
+	border: 1px solid #66d2b4;
 	overflow: hidden;
 }
 

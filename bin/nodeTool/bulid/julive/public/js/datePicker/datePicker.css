@@ -1,6 +1,6 @@
 .datePicker{
     background-color: #fff;
-    border: 0.01rem solid #ccc;
+    border: 1px solid #ccc;
     width: 2.5rem;
 	z-index: 1;
 }
@@ -8,7 +8,7 @@
     background-color: #fff;
     height: 0.28rem;
     line-height: 0.28rem;
-    border-bottom: 0.01rem solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
     text-align: center
 }
  .datePicker td,  .datePicker tr,  .datePicker th {
@@ -21,7 +21,7 @@
     height: 0.25rem;
     line-height: 0.25rem;
     text-align: center;
-    margin: 0.01rem;
+    margin: 1px;
     cursor: pointer
 }
  .datePicker td:hover {

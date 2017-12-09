@@ -1,0 +1,15 @@
+<!--s:头部-->
+<div class="header-wrap wrap">
+<header>
+	<i class="icon-chevron-left back" onclick="history.back(-1)"></i>
+	<a class="city" href="#/web/citys.html">
+		<span >北京</span>
+		<span class="icon-chevron-down"></span>
+	</a>
+	<span class="header-right">
+		<a href="#/web/home.html"><i class="icon-home2"></i></a>
+		<a href="#/web/login.html"><i class="icon-user"></i></a>
+	</span>
+</header>
+</div>
+<!--e:头部-->

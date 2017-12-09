@@ -31,7 +31,7 @@ h1,h2,h3,h4{
 	font-weight: 400;
 	color: #333;
 }
-
+img{width:100%}
 /*font-size*/
 .fs12{font-size: 0.12rem;}
 .fs14{font-size: 0.14rem;}
@@ -177,6 +177,16 @@ h1,h2,h3,h4{
 .h50{height: 0.5rem }
 .h60{height: 0.6rem;}
 
+/*width*/
+.w10{width: 0.1rem;}
+.w20{width: 0.2rem;}
+.w30{width: 0.3rem;}
+.w35{width: 0.35rem;}
+.w40{width: 0.4rem;}
+.w45{width: 0.45rem;}
+.w50{width: 0.5rem }
+.w60{width: 0.6rem;}
+
 .wrap{
 	max-width: 6.4rem;
 	min-width: 3rem;
@@ -185,16 +195,16 @@ h1,h2,h3,h4{
 	margin-right:auto;
 	margin-left:auto;
 }
-img{width:100%}
+
 .btn{
 	padding: 0.05rem 0.1rem;
 	min-width: 1rem;
 	display: inline-block;
 	border-radius: 0.04rem;
-	border: 0.01rem solid;
+	border: 1px solid;
 	text-align: center;
 }
 .btn-no-radius{
-	padding:0.02rem 0.1rem;
+	padding:2px 0.1rem;
 	display: inline-block;
 }

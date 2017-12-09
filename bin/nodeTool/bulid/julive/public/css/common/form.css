@@ -4,7 +4,7 @@ select, input {
 	font-size: inherit;
 	outline: 0;
 	outline-offset:0;
-	border: 0.01rem solid #e1e1e1;
+	border: 1px solid #e1e1e1;
 }
 select{
 	box-sizing: content-box;
@@ -16,7 +16,7 @@ input[type=radio], input[type=checkbox] {
 
 input:focus, textarea:focus, button:focus, select:focus {
 	outline: 0;
-	border: 0.01rem solid #01cd9a
+	border: 1px solid #acadc8;
 }
 select {
 	/*很关键：将默认的select选择框样式清除*/
@@ -47,7 +47,7 @@ fieldset {
 	line-height: 4rem;
 	height: 4rem;
 	position:relative;
-	padding:0rem 20% 0rem 20%;
+	padding:0px 20% 0px 20%;
 	margin-bottom: 0.96rem;
 }
 .ipt-label{
@@ -56,7 +56,7 @@ fieldset {
 	padding-right:3%;
 	left:0;
 	text-align: right;
-	top: 0.02rem;
+	top: 2px;
 	height: 4rem;
 }
 .ipt-block{
@@ -77,7 +77,7 @@ fieldset {
 	width:100%;
 	box-sizing: border-box;
 	padding-left:0.05rem;
-	border: 0.01rem solid #e1e1e1;
+	border: 1px solid #e1e1e1;
 }
 
 .ipt-prepend [class^="icon-"],
@@ -90,10 +90,10 @@ fieldset {
 	padding-left:0.3rem;
 }
 .ipt-append.ipt-label-block{
-	padding:0rem 0.38rem 0rem 1rem
+	padding:0px 0.38rem 0px 1rem
 }
 .ipt-prepend.ipt-label-block{
-	padding: 0rem 0.33rem 0rem 1rem;
+	padding: 0px 0.33rem 0px 1rem;
 }
 
 .ipt-append [class^="icon-"],
@@ -113,8 +113,8 @@ fieldset {
 }
 .ipt-btn-append .btn{
 	position: absolute;
-	right:0rem;
-	top: 0rem;
+	right:0px;
+	top: 0px;
 	height: 5.44rem;
 	border-radius: 0 0.05rem 0.05rem 0;
 }
@@ -135,12 +135,12 @@ background: #1f2229;
 	-moz-box-shadow:0.05rem 0.05rem 0.05rem #1d2025 inset;               /* For Firefox3.6+ */
 	-webkit-box-shadow:0.05rem 0.05rem 0.05rem #1d2025 inset;            /* For Chrome5+, Safari5+ */
 	box-shadow:0.05rem 0.05rem 0.05rem #1d2025 inset;                    /* For Latest Opera */
-	border:0.01rem solid transparent;
+	border:1px solid transparent;
 	color:#fff;
 }
 .form-sea .focus .ipt{
 	color: #00ce9a;
-	border:0.01rem solid #00ce9a;
+	border:1px solid #00ce9a;
 }
 .form-sea .focus .ipt::-webkit-input-placeholder { /* WebKit browsers */
 	color: #00ce9a;
@@ -161,7 +161,7 @@ background: #1f2229;
 	display:inline-block;
 }
 .validErr input,.validErr select{
-	border:0.01rem solid #da0e0e;
+	border:1px solid #da0e0e;
 }
 .validItem{
 	position:relative;
@@ -202,11 +202,11 @@ background: #1f2229;
 }
 .ipt-register{
 	background-image: url(../images/btnbg.png);
-	background-position: 0rem -1.96rem;
+	background-position: 0px -1.96rem;
 	background-size:2.91rem 3.84rem;
 	width: 1.61rem;
 	height: 0.34rem;
-	background-position: 0rem -1.96rem;
+	background-position: 0px -1.96rem;
 	background-size: 181% 4.8rem;
 	width: 100%;
 	height: 0.34rem;
