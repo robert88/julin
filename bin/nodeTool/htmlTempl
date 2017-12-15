@@ -1,0 +1,27 @@
+    function templ(json,templStr){
+        templStr = templStr.replace(/\\/g,"\\\\").replace(/\n/g,"\\n").replace(/("|')/g,"\\\$1")
+//        templStr = templStr.replace(/\\/g,"\\\\").replace(/("|')/g,"\\\$1")
+            .replace(/\n/g,"\"+\n\"")
+            //循环
+            .replace(/\{\{#each\s+([\$\w\.]+)\s*\}\}/g,function(m,m1){
+                return "\"+(function(){var t=\"\";"+m1+".forEach(function($value,$index){ \n t+= \""
+            })
+            .replace(/\{\{#endEach\s*\}\}/g,"\"});return t;}()) +\"")
+            //变量
+            .replace(/\{\{\s*([\$\w\.]+)\s*\}\}/g,function(m,m1){
+                return "\"+"+m1+"+\""
+            })
+            //ifelse
+            .replace(/\{\{#if\s+([!"'\\\$\w\.=><?]+)\s*\}\}/g,function(m,m1){
+                return "\"; if("+m1.replace(/\\/g,"")+"){ t+=\""
+            }).replace(/\{\{#elseIf\s+([!"'\\\$\w\.=><?]+)\s*\}\}/g,function(m,m1){
+                return "\"; }else if("+m1.replace(/\\/g,"")+"){ t+=\""
+            }).replace(/\{\{#else\s*\}\}/g,function(m,m1){
+                return "\";}else{ t+=\""
+            }).replace(/\{\{#endIf\s*\}\}/g,function(m,m1){
+                return "\"} t+=\""
+            })
+        var result = "with(obj){ debugger;var t =\""+templStr.replace(/\+$/,"")+"\"} return t;"
+        var fn = new Function("obj",result);
+		return fn(json);
+    }
