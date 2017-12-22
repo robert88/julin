@@ -12,7 +12,7 @@ function templ(json,templStr){
         .replace(/\n/g,"\"+\n\"")
         //循环
         .replace(/\{\{#each\s+([^}]+)\s*\}\}/g,function(m,m1){
-            return "\"+(function(){try{var t=\"\";"+m1+"&&"+m1+".forEach(function($value,$index){ \n t+= \""
+            return "\"+(function(){try{var $length ="+m1+"&&"+m1+".length; var t=\"\";"+m1+"&&"+m1+".forEach(function($value,$index){ \n t+= \""
         })
         .replace(/\{\{#endEach\s*\}\}/g,"\"});return t;}catch(e){console.log(e&&e.stack)}}()) +\"")
         //ifelse
