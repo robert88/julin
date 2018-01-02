@@ -25,8 +25,8 @@ var zlibMap = {
 function responseData(ret,request, response,type) {
 
 	var zipType = rap.deflate ? "deflate" : "gzip";//response.headers['Content-Encoding'] undefined
-
-	type = type|| "text/html";
+	var spacialText = type=="text/text";
+	type = (!spacialText&&type)|| "text/html";
 
 	if(request.cookie.length){
 		type = "text/plain";
@@ -39,13 +39,19 @@ function responseData(ret,request, response,type) {
 	}
 	var zip = zlibMap[zipType]();
 
+	if( spacialText ){
+        rap.log("请求结果为文本：", ret);
+        response.writeHead(200,headerOption);
+        response.end( ret);
+        return;
+	}
 	//如果是string就表示是路径
 	if (rap.type(ret) != "string") {
-		rap.log("请求结果为json对象：", JSON.stringify(ret));
-		//response.pipe( b );
-		response.writeHead(200,headerOption);
-		response.end(JSON.stringify(ret));
-		//如果返回的是文件
+            rap.log("请求结果为json对象：", JSON.stringify(ret));
+        	headerOption["Content-Type"] = "application/json";
+            response.writeHead(200,headerOption);
+            response.end(JSON.stringify(ret));
+            //如果返回的是文件
 	} else {
 		var staticPathArr =rap.staticPathArr;
 		var absolutePath = staticPathArr[0];
@@ -96,35 +102,35 @@ exports = module.exports = function (request, response) {
 
 	var url = filter(request.url, request.params) || request.url;
 
-	var extname = path.extname(path.basename(url)).replace(".","").replace(/\?.*/,"");
 
 	//匹配action文件
-	if (actionMap[url]) {
-		if (typeof actionMap[url] == "function") {
-			var timer = setTimeout(function () {
-				throw new Error("response timeout");
-			},600000);
-			actionMap[request.url](request, response, function (ret) {
-				clearTimeout(timer);
-				responseData(ret,request, response,"application/json");
-			});
-		} else {
-			ret = actionMap[url];
-			responseData(ret,request, response,mine[extname]);
-		}
+    if (typeof actionMap[url] == "function") {
+        var timer = setTimeout(function () {
+            throw new Error("response timeout");
+        },600000);
+        actionMap[request.url](request, response, function (ret,type) {
+            clearTimeout(timer);
+            responseData(ret,request, response,type);
+        });
+		return;
+    }
+
+    //map给string
+    if (actionMap[url]) {
+    	ret = actionMap[url];
+	}else{
+    	ret = url;
+	}
+
+    ret =  ret.toString();
+
+    var extname = path.extname(path.basename(ret)).replace(".","").replace(/\?.*/,"");
 
 	//静态文件
-	}else if (mine[extname]) {
-
-		ret = url;
-
-		responseData(ret, request,response,mine[extname]);
-
-	//不支持的文件类型
+	if (extname && mine[extname]) {
+        responseData(ret, request,response,mine[extname]);
+	//单纯的字符串
 	}else {
-		//domain error只能捕获异步的错误
-		setTimeout(function () {
-			throw new Error("not find action or not support resource of mine type:"+mine[extname]+" url:"+url+" extname:"+extname);
-		});
+        responseData(ret, request,response,"text/text");
 	}
 }

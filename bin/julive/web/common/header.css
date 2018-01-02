@@ -3,4 +3,13 @@
 header{text-align: center;position: fixed;width: 100%;max-width: 640px;min-width: 300px;background:#fff;padding-top: 10px;padding-bottom: 10px;-moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, .3);-webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, .3);box-shadow: 0px 1px 2px rgba(0, 0, 0, .3);}
 header .back{position: absolute;left: 10px;top:50%;height: 26px;font-size: 38px;margin-top: -13px;}
 header .header-right{position:absolute;right: 20px;top:50%;/* height: 18px; */margin-top: -13px;}
+.mobileCode{
+	position:relative;
+}
+.mobileCode .btn{
+	position:absolute;
+	right: 12px;
+	top: 11px;
+}
+
 /*Ã¥Â¤Â´Ã©Æ’Â¨Ã©Â¡ÂµÃ©ÂÂ¢*/

@@ -20,3 +20,8 @@ var swiper = new Swiper('.personList .swiper-container', {
 	// Enable lazy loading
 	lazyLoading: true
 });
+
+/*登录*/
+$(".loginBtn").click(function () {
+	dialog($(".login-dialog"))
+});

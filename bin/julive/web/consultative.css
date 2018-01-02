@@ -1,8 +1,8 @@
 .banner img{width: 100%}
-/*s:经典页面列表*/
+/*s:ç»å…¸é¡µé¢åˆ—è¡¨*/
 .case-list{
 	margin: 20px 0;
-	padding: 5px 0 30px 140px;
+	padding: 5px 0 30px 110px;
 	border-bottom: 1px solid #e1e1e1;
 	position:relative;
 }
@@ -14,15 +14,15 @@
 	height: 100%;
 	width:100%;
 }
-/*e:经典页面列表*/
+/*e:ç»å…¸é¡µé¢åˆ—è¡¨*/
 .case-list .img{
 	position: absolute;
 	left: 0;
 	top: 4px;
 	overflow: hidden;
 	border-radius: 50%;
-	width: 120px;
-	height: 120px;
+	width: 100px;
+	height: 100px;
 }
 .case-list .feedback em{
 	color: #ff6e72;
@@ -37,17 +37,17 @@
 	right: 20px;
 }
 .case-list .tel .ico{
-   background-size: 16px 1482.4px;
-   width:16px;
-   height:16px;
+   /* width:16px; */
+   transform: scale(1);
+   /* height:16px; */
 }
 .case-list .tel .icon_b_wenda{
-	background-position: 0 -746px;
+	/* background-position: 0 -735px; */
 	margin-right: 20px;
 }
 .case-list .tel .icon_tel{
-	background-position: 0 -1098.4px;
+	/* background-position: 0 -1090px; */
 	margin-left: 20px;
-	top: 6px;
+	/* top: 6px; */
 	position: relative;
 }

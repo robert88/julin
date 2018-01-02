@@ -1,6 +1,6 @@
 .gotop {
 	position: fixed;
-	bottom: 20px;
+	bottom: 80px;
 	right: 10px;
 	z-index: 98;
 	width: 40px;
@@ -15,7 +15,7 @@
 .toorbar-sort {
 	color: #333;
 	position: fixed;
-	bottom: 80px;
+	bottom: 140px;
 	right: 10px;
 	width: 40px;
 	z-index: 98;

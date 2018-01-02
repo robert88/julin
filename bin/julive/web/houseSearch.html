@@ -1,15 +1,17 @@
 <include src="#/web/common/header.html"></include>
 
 <!--s:新房情况局-->
-<include src="#/web/common/dynamicNews.html"></include>
+<include src="#/web/common/dynamicSubscription.html"></include>
 <!--E:新房情况局-->
 
-<!--s:人物-->
-<div class="mt20 wrap">
+
+<!--s:查询条件-->
+<div class="search-select-mask"></div>
+<div class="mt20 wrap relative bg-white" style="z-index: 101">
 	<ul class="col tc search-condition relative">
 		<li class="col3">
 			<span>区域</span><span class="turndown">▼</span>
-			<dl class="col shadow-2">
+			<dl class="col shadow-2 pb40">
 				<dt class="col6">
 					<div class="current case-type">区域</div>
 					<div class="case-type">地铁</div>
@@ -30,7 +32,7 @@
 		</li>
 		<li class="col3">
 			<span>总价 </span><span class="turndown">▼</span>
-			<dl class="shadow-2">
+			<dl class="shadow-2 pb40">
 				<dd class="case-type-option selected">不限</dd>
 				<dd class="case-type-option">&lt;200万</dd>
 				<dd class="case-type-option">200-400万</dd>
@@ -55,7 +57,7 @@
 		</li>
 		<li class="col3">
 			<span>户型</span><span class="turndown">▼</span>
-			<dl class="shadow-2">
+			<dl class="shadow-2 pb40">
 				<dd class="case-type-option selected">不限</dd>
 				<dd class="case-type-option">一居</dd>
 				<dd class="case-type-option">二居</dd>
@@ -66,7 +68,7 @@
 		</li>
 		<li class="col3">
 			<span>更多</span><span class="turndown">▼</span>
-			<dl class="tl plr10 case-more shadow-2">
+			<dl class="tl plr10 case-more shadow-2 pb40">
 				<dt>类型</dt>
 				<dd>
 					<span class="selected case-type-option"> 不限</span>
@@ -105,10 +107,11 @@
 			</dl>
 		</li>
 	</ul>
-	<include src="#/web/common/houseList.html"></include>
 </div>
-<!--:人物-->
+<!--e查询条件-->
 
-
+<include src="#/web/common/houseList.html"></include>
 
 <include src="#/web/common/goTop.html"></include>
+
+<include src="#/web/common/footerTips.html"></include>

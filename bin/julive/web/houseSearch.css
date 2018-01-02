@@ -11,7 +11,7 @@ padding:15px 0;
 	background:#fff;
 	position:absolute;
 	display: none;
-	z-index: 10;
+	z-index: 101;
 	top:100%;
 	left: 0;
 	width: 100%;
@@ -37,3 +37,4 @@ padding:15px 0;
 	border: 1px solid #c6c6c6;
 	border-radius: 2px;
 }
+.search-select-mask{position:absolute;background:rgba(0,0,0,0.3);left:0;top:0;right:0;bottom:0;z-index: 100;display: none;}

@@ -13,20 +13,72 @@
 
 <div class="wrap fs14 searchContent">
 	<form action="">
-	<ul class="col">
-		<li class="col6 plr10 mtb10"> <div class="bd p10">区域</div></li>
-		<li class="col6 plr10 mtb10"><div class="bd p10">总价</div></li>
-		<li class="col6 plr10 mtb10"><div class="bd p10">居室</div></li>
-		<li class="col6 plr10 mtb10"><div class="bd p10">面积</div></li>
-	</ul>
-	<div class="mtb10 plr10">
-		<input type="text" placeholder="请填写手机号立即订阅" class="ipt p10">
-	</div>
+		<ul class="col">
+			<li class="col6 plr10 mtb10">
+				<select name="area" placeholder="区域" class="ipt">
+					<option value="">不限</option>
+					<option value="18">房山</option>
+					<option value="17">大兴</option>
+					<option value="19">门头沟</option>
+					<option value="16">顺义</option>
+					<option value="5">通州</option>
+					<option value="6">丰台</option>
+					<option value="4">朝阳</option>
+					<option value="7">昌平</option>
+					<option value="14">西城</option>
+					<option value="8">石景山</option>
+					<option value="3">东城</option>
+					<option value="15">海淀</option>
+					<option value="20">密云</option>
+				</select>
+			</li>
+			<li class="col6 plr10 mtb10">
+				<select name="price" placeholder="总价" class="ipt">
+					<option value="">不限</option>
+					<option value="1">&lt;200万</option>
+					<option value="2">200-400万</option>
+					<option value="3">400-500万</option>
+					<option value="4">500-600万</option>
+					<option value="5">600-800万</option>
+					<option value="6">800-1000万</option>
+					<option value="7">1000-2000万</option>
+					<option value="8">&gt;2000万</option>
+				</select>
+			</li>
+
+			<li class="col6 plr10 mtb10">
+				<select name="area" placeholder="居室" class="ipt">
+					<option value="0">不限</option>
+					<option value="1">一居</option>
+					<option value="2">二居</option>
+					<option value="3">三居</option>
+					<option value="4">四居</option>
+					<option value="5">五居及以上</option>
+				</select>
+
+			</li>
+
+			<li class="col6 plr10 mtb10">
+				<select name="area" placeholder="面积" class="ipt">
+					<option value="0">不限</option>
+					<option value="1">&lt; 50m²</option>
+					<option value="2">50m²-80m²</option>
+					<option value="3">80m²-120m²</option>
+					<option value="4">120m²-140m²</option>
+					<option value="5">140m²-160m²</option>
+					<option value="6">&gt; 160m²</option>
+				</select>
+			</li>
+		</ul>
+		<div class="mtb10 plr10">
+			<input type="text" placeholder="请填写手机号立即订阅" class="ipt p10">
+		</div>
 		<div class="mtb10 plr10">
 			<span class="btn btn-danger" style="display: block">立即订阅</span>
 		</div>
 	</form>
 </div>
+
 
 
 

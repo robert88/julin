@@ -16,7 +16,7 @@ input[type=radio], input[type=checkbox] {
 
 input:focus, textarea:focus, button:focus, select:focus {
 	outline: 0;
-	border: 1px solid #01cd9a
+	border: 1px solid #acadc8;
 }
 select {
 	/*很关键：将默认的select选择框样式清除*/

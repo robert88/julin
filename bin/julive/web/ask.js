@@ -16,3 +16,5 @@ $(".askBtn").click(function () {
 $(".J-dialog-close").click(function (e) {
 		closeDialog($(this).parents(".dialog-mask"))
 });
+
+new Swiper('.askHeader');
