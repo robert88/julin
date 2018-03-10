@@ -2,56 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbd3b842-70fb-47e7-b182-43106d7893a1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/nodeTool/bulid/julive.rar" afterPath="$PROJECT_DIR$/bin/nodeTool/bulid/julive.rar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/julive/web/common/headerForum.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/julive/web/common/headerForum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/julive/web/common/headerForum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/julive/web/forum.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/nodeTool/bulid/julive/web/common/askFooterTips.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/nodeTool/bulid/julive/web/common/askTempl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/nodeTool/bulid/julive/web/common/buyStoryList.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/nodeTool/bulid/julive/web/common/dynamicNews.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/nodeTool/bulid/julive/web/common/dynamicSubscription.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/nodeTool/bulid/julive/web/common/footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/nodeTool/bulid/julive/web/common/footerTips.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/nodeTool/bulid/julive/web/common/goTop.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/nodeTool/bulid/julive/web/common/header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/nodeTool/bulid/julive/web/common/headerTips.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/nodeTool/bulid/julive/web/common/houseList.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/nodeTool/bulid/julive/web/common/personList.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/nodeTool/bulid/julive/web/common/picPrewiew.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/nodeTool/bulid/julive/web/common/searchHouse.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/nodeTool/bulid/julive/web/common/searchPerson.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/public/css/font/fonts/icomoon.eot" afterPath="$PROJECT_DIR$/bin/julive/public/css/font/fonts/icomoon.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/public/css/font/fonts/icomoon.ttf" afterPath="$PROJECT_DIR$/bin/julive/public/css/font/fonts/icomoon.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/public/css/font/fonts/icomoon.woff" afterPath="$PROJECT_DIR$/bin/julive/public/css/font/fonts/icomoon.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/julin.iml" afterPath="$PROJECT_DIR$/.idea/julin.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/public/css/common/form.css" afterPath="$PROJECT_DIR$/bin/julive/public/css/common/form.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/index.html" afterPath="$PROJECT_DIR$/bin/julive/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/public/css/common/base.css" afterPath="$PROJECT_DIR$/bin/julive/public/css/common/base.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/public/css/common/index.css" afterPath="$PROJECT_DIR$/bin/julive/public/css/common/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/public/css/common/main.css" afterPath="$PROJECT_DIR$/bin/julive/public/css/common/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/public/images/sprite.svg" afterPath="$PROJECT_DIR$/bin/julive/public/images/sprite.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/public/css/font/demo.html" afterPath="$PROJECT_DIR$/bin/julive/public/css/font/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/public/css/font/fonts/icomoon.svg" afterPath="$PROJECT_DIR$/bin/julive/public/css/font/fonts/icomoon.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/public/css/font/selection.json" afterPath="$PROJECT_DIR$/bin/julive/public/css/font/selection.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/public/css/font/style.css" afterPath="$PROJECT_DIR$/bin/julive/public/css/font/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/public/css/skin/main_color.css" afterPath="$PROJECT_DIR$/bin/julive/public/css/skin/main_color.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/public/js/common/main.js" afterPath="$PROJECT_DIR$/bin/julive/public/js/common/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/ask.html" afterPath="$PROJECT_DIR$/bin/julive/web/ask.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/ask.js" afterPath="$PROJECT_DIR$/bin/julive/web/ask.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/buyStory.html" afterPath="$PROJECT_DIR$/bin/julive/web/buyStory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/buyStoryDetail.css" afterPath="$PROJECT_DIR$/bin/julive/web/buyStoryDetail.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/buyStoryDetail.html" afterPath="$PROJECT_DIR$/bin/julive/web/buyStoryDetail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/common/askFooterTips.css" afterPath="$PROJECT_DIR$/bin/julive/web/common/askFooterTips.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/common/askFooterTips.html" afterPath="$PROJECT_DIR$/bin/julive/web/common/askFooterTips.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/common/buyStoryList.css" afterPath="$PROJECT_DIR$/bin/julive/web/common/buyStoryList.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/common/buyStoryList.html" afterPath="$PROJECT_DIR$/bin/julive/web/common/buyStoryList.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/common/dynamicSubscription.css" afterPath="$PROJECT_DIR$/bin/julive/web/common/dynamicSubscription.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/common/dynamicSubscription.html" afterPath="$PROJECT_DIR$/bin/julive/web/common/dynamicSubscription.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/common/dynamicSubscription.js" afterPath="$PROJECT_DIR$/bin/julive/web/common/dynamicSubscription.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/common/footerTips.html" afterPath="$PROJECT_DIR$/bin/julive/web/common/footerTips.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/common/goTop.css" afterPath="$PROJECT_DIR$/bin/julive/web/common/goTop.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/common/header.css" afterPath="$PROJECT_DIR$/bin/julive/web/common/header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/common/header.html" afterPath="$PROJECT_DIR$/bin/julive/web/common/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/common/header.js" afterPath="$PROJECT_DIR$/bin/julive/web/common/header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/common/headerTips.css" afterPath="$PROJECT_DIR$/bin/julive/web/common/headerTips.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/common/personList.css" afterPath="$PROJECT_DIR$/bin/julive/web/common/personList.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/common/personList.html" afterPath="$PROJECT_DIR$/bin/julive/web/common/personList.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/consultative.css" afterPath="$PROJECT_DIR$/bin/julive/web/consultative.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/consultative.html" afterPath="$PROJECT_DIR$/bin/julive/web/consultative.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/consultativeDetail.html" afterPath="$PROJECT_DIR$/bin/julive/web/consultativeDetail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/consultativeDetail.js" afterPath="$PROJECT_DIR$/bin/julive/web/consultativeDetail.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/helpSearch.html" afterPath="$PROJECT_DIR$/bin/julive/web/helpSearch.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/common/footer.js" afterPath="$PROJECT_DIR$/bin/julive/web/common/footer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/home.css" afterPath="$PROJECT_DIR$/bin/julive/web/home.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/home.html" afterPath="$PROJECT_DIR$/bin/julive/web/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/home.js" afterPath="$PROJECT_DIR$/bin/julive/web/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/houseDetail.html" afterPath="$PROJECT_DIR$/bin/julive/web/houseDetail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/houseDetail.js" afterPath="$PROJECT_DIR$/bin/julive/web/houseDetail.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/houseKnowledgeDetail.html" afterPath="$PROJECT_DIR$/bin/julive/web/houseKnowledgeDetail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/houseSearch.css" afterPath="$PROJECT_DIR$/bin/julive/web/houseSearch.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/houseSearch.html" afterPath="$PROJECT_DIR$/bin/julive/web/houseSearch.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/houseSearch.js" afterPath="$PROJECT_DIR$/bin/julive/web/houseSearch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/houseTypeDetail.css" afterPath="$PROJECT_DIR$/bin/julive/web/houseTypeDetail.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/houseTypeDetail.html" afterPath="$PROJECT_DIR$/bin/julive/web/houseTypeDetail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/houseTypeDetail.js" afterPath="$PROJECT_DIR$/bin/julive/web/houseTypeDetail.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/imagesList.html" afterPath="$PROJECT_DIR$/bin/julive/web/imagesList.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/loginSuccess.css" afterPath="$PROJECT_DIR$/bin/julive/web/loginSuccess.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/loginSuccess.html" afterPath="$PROJECT_DIR$/bin/julive/web/loginSuccess.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/subscribe.html" afterPath="$PROJECT_DIR$/bin/julive/web/subscribe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/julive/web/subscription.html" afterPath="$PROJECT_DIR$/bin/julive/web/subscription.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/rap.server.response.js" afterPath="$PROJECT_DIR$/bin/rap.server.response.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/nodeTool/remToPX.js" afterPath="$PROJECT_DIR$/bin/nodeTool/remToPX.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/error20171129_014046.log" afterPath="$PROJECT_DIR$/log/error20171129_014046.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/info20171129_014046.log" afterPath="$PROJECT_DIR$/log/info20171129_014046.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/log20171129_014046.log" afterPath="$PROJECT_DIR$/log/log20171129_014046.log" />
@@ -76,52 +65,88 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="houseDetail.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bin/julive/web/houseDetail.html">
+      <file leaf-file-name="headerForum.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/julive/web/common/headerForum.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="280" column="18" selection-start-line="280" selection-start-column="18" selection-end-line="280" selection-end-column="18" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#7;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="280">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="askFooterTips.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/julive/web/common/askFooterTips.html">
+      <file leaf-file-name="headerForum.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/julive/web/common/headerForum.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bin/julive/public/css/font/demo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forum.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/julive/web/forum.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="headerForum.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/julive/web/common/headerForum.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/julive/web/common/header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="12" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="headerTips.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/julive/web/common/headerTips.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/julive/web/common/header.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="10" column="212" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="212" />
+              <caret line="10" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="houseSearch.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/julive/web/houseSearch.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="goTop.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/julive/web/common/goTop.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="searchPerson.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/julive/web/common/searchPerson.css">
+      <file leaf-file-name="helpSearch.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/julive/web/helpSearch.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -130,51 +155,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="searchHouse.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/julive/web/common/searchHouse.html">
+      <file leaf-file-name="headerTips.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/julive/web/common/headerTips.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="houseSearch.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/julive/web/houseSearch.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="houseTypeDetail.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/julive/web/houseTypeDetail.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="houseTypeDetail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/julive/web/houseTypeDetail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="houseSearch.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/julive/web/houseSearch.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -193,19 +178,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bin/nodeTool/bulid/julive/public/css/skin/main_color.css" />
-        <option value="$PROJECT_DIR$/bin/julive/public/css/common/index.css" />
-        <option value="$PROJECT_DIR$/bin/julive/web/common/footer.css" />
-        <option value="$PROJECT_DIR$/bin/julive/web/common/footer.html" />
-        <option value="$PROJECT_DIR$/bin/julive/web/common/footer.js" />
-        <option value="$PROJECT_DIR$/bin/julive/web/common/picPrewiew.js" />
-        <option value="$PROJECT_DIR$/bin/julive/web/common/picPrewiew.css" />
-        <option value="$PROJECT_DIR$/bin/julive/web/common/personList.css" />
-        <option value="$PROJECT_DIR$/bin/julive/web/common/personList.html" />
-        <option value="$PROJECT_DIR$/bin/nodeTool/bulid/julive/public/images/sprite.svg" />
-        <option value="$PROJECT_DIR$/bin/julive/public/images/sprite.svg" />
         <option value="$PROJECT_DIR$/bin/julive/web/consultativeDetail.js" />
-        <option value="$PROJECT_DIR$/bin/julive/web/ask.js" />
         <option value="$PROJECT_DIR$/bin/julive/web/common/dynamicSubscription.css" />
         <option value="$PROJECT_DIR$/bin/julive/web/common/dynamicSubscription.html" />
         <option value="$PROJECT_DIR$/bin/julive/web/consultativeDetail.html" />
@@ -220,11 +193,8 @@
         <option value="$PROJECT_DIR$/bin/julive/web/houseDetail.js" />
         <option value="$PROJECT_DIR$/bin/julive/web/houseTypeDetail.js" />
         <option value="$PROJECT_DIR$/bin/julive/web/houseTypeDetail.css" />
-        <option value="$PROJECT_DIR$/bin/julive/public/js/common/main.js" />
         <option value="$PROJECT_DIR$/bin/julive/web/common/dynamicSubscription.js" />
-        <option value="$PROJECT_DIR$/bin/julive/web/common/header.js" />
         <option value="$PROJECT_DIR$/bin/julive/web/home.js" />
-        <option value="$PROJECT_DIR$/bin/julive/web/home.css" />
         <option value="$PROJECT_DIR$/bin/julive/web/common/header.css" />
         <option value="$PROJECT_DIR$/bin/julive/web/houseKnowledgeDetail.html" />
         <option value="$PROJECT_DIR$/bin/julive/web/buyStoryDetail.css" />
@@ -235,7 +205,6 @@
         <option value="$PROJECT_DIR$/bin/julive/web/common/buyStoryList.css" />
         <option value="$PROJECT_DIR$/bin/julive/web/common/buyStoryList.html" />
         <option value="$PROJECT_DIR$/bin/julive/web/loginSuccess.css" />
-        <option value="$PROJECT_DIR$/bin/julive/web/home.html" />
         <option value="$PROJECT_DIR$/bin/julive/web/common/header.html" />
         <option value="$PROJECT_DIR$/bin/julive/web/loginSuccess.html" />
         <option value="$PROJECT_DIR$/bin/nodeTool/mergeTogger.js" />
@@ -244,6 +213,22 @@
         <option value="$PROJECT_DIR$/bin/julive/web/houseSearch.js" />
         <option value="$PROJECT_DIR$/bin/julive/web/houseSearch.html" />
         <option value="$PROJECT_DIR$/bin/julive/web/houseDetail.html" />
+        <option value="$PROJECT_DIR$/bin/nodeTool/remToPX.js" />
+        <option value="$PROJECT_DIR$/bin/julive/web/ask.html" />
+        <option value="$PROJECT_DIR$/bin/julive/web/ask.js" />
+        <option value="$PROJECT_DIR$/bin/julive/public/js/common/main.js" />
+        <option value="$PROJECT_DIR$/bin/julive/public/css/skin/main_color.css" />
+        <option value="$PROJECT_DIR$/bin/julive/public/css/common/index.css" />
+        <option value="$PROJECT_DIR$/bin/julive/web/home.css" />
+        <option value="$PROJECT_DIR$/bin/julive/web/home.html" />
+        <option value="$PROJECT_DIR$/bin/julive/web/common/footer.js" />
+        <option value="$PROJECT_DIR$/bin/julive/index.html" />
+        <option value="$PROJECT_DIR$/bin/julive/web/common/ForumHeader.html" />
+        <option value="$PROJECT_DIR$/bin/julive/web/forum.html" />
+        <option value="$PROJECT_DIR$/bin/julive/web/common/headerForum.css" />
+        <option value="$PROJECT_DIR$/bin/julive/web/common/header.js" />
+        <option value="$PROJECT_DIR$/bin/julive/web/common/headerForum.js" />
+        <option value="$PROJECT_DIR$/bin/julive/web/common/headerForum.html" />
       </list>
     </option>
   </component>
@@ -289,8 +274,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -320,24 +303,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="julin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="julin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodeTool" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -428,6 +393,10 @@
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -443,12 +412,138 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="action" />
+              <option name="myItemId" value="julive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="julin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="julin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="julive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="julin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="julin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="julive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="julin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="julin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="julive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="font" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="julin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="julin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="julive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -464,8 +559,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\git\julin\bin\julive\web" />
       <recent name="D:\git\julin\bin\julive\web\common" />
+      <recent name="D:\git\julin\bin\julive\web" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.julive">
@@ -851,14 +946,16 @@
       <workItem from="1512462005895" duration="9086000" />
       <workItem from="1512568579206" duration="9127000" />
       <workItem from="1512656422851" duration="27440000" />
+      <workItem from="1520595795857" duration="19000" />
+      <workItem from="1520601907956" duration="9652000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55431000" />
+    <option name="totallyTimeSpent" value="65102000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1932" height="1038" extended-state="1" />
+    <frame x="-8" y="0" width="1932" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -868,13 +965,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20273349" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20273349" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2327957" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45899773" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06621005" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -908,7 +1005,55 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/picPrewiew.css">
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/consultativeDetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/loginSuccess.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/personList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/imagesList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/loginSuccess.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#li#1;n#ul#1;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/goTop.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/searchHouse.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -916,15 +1061,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/consultativeDetail.css">
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/houseSearch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="380">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/headerTips.html">
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/houseSearch.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/houseTypeDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/houseTypeDetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/askFooterTips.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="212" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="212" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/nodeTool/mergeTogger.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="205" column="13" selection-start-line="205" selection-start-column="13" selection-end-line="205" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/nodeTool/run.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -932,47 +1117,141 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/footer.html">
+    <entry file="file://$PROJECT_DIR$/bin/nodeTool/remToPX.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/buyStoryDetail.css">
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/houseDetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="280" column="18" selection-start-line="280" selection-start-column="18" selection-end-line="280" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#7;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/houseSearch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/nodeTool/bulid/julive/web/imagesList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="55" column="22" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/nodeTool/bulid/julive/public/js/common/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/ask.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/ask.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/public/css/common/main.css">
+    <entry file="file://$PROJECT_DIR$/bin/julive/public/css/skin/main_color.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="176" column="19" selection-start-line="176" selection-start-column="19" selection-end-line="176" selection-end-column="19" />
+        <state relative-caret-position="297">
+          <caret line="390" column="10" selection-start-line="390" selection-start-column="10" selection-end-line="390" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/buyStoryDetail.html">
+    <entry file="file://$PROJECT_DIR$/bin/julive/public/css/common/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+        <state relative-caret-position="717">
+          <caret line="222" column="0" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/consultativeDetail.js">
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="170" column="0" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/buyStory.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
-          <caret line="1" column="98" selection-start-line="1" selection-start-column="98" selection-end-line="1" selection-end-column="109" />
+          <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/headerTips.css">
+    <entry file="file://$PROJECT_DIR$/bin/julive/public/js/common/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1266">
+          <caret line="119" column="33" selection-start-line="119" selection-start-column="33" selection-end-line="119" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/julive/public/js/common/page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1511357916168" expanded="true" signature="8225:8243" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/julive/indexStatic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-443">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/julive/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/searchPerson.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -980,18 +1259,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/header.css">
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/footer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        <state relative-caret-position="160">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/footerTips.html">
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="60" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="60" />
+        <state relative-caret-position="540">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#p#3;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#4;n#div#0;n#div#7;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1004,7 +1302,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/footer.css">
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/personList.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1012,31 +1310,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/askFooterTips.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/askTempl.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/dynamicNews.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/ask.css">
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/picPrewiew.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1060,7 +1334,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/consultative.css">
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/citys.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1068,71 +1342,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="161" column="0" selection-start-line="161" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/personList.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/buyStoryList.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/buyStoryList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/buyStory.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/subscribe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/houseKnowledge.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="49" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/houseKnowledgeDetail.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/houseKnowledge.css">
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/helpSearch.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1140,7 +1350,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/helpSearch.html">
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/headerTips.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1148,184 +1358,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/consultative.html">
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/header.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="200">
+          <caret line="10" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/consultativeDetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/loginSuccess.css">
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/headerTips.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/public/js/common/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="127" column="1" selection-start-line="127" selection-start-column="1" selection-end-line="127" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/julive/web/common/header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="12" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="64" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#p#3;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/personList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="140">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="12" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/imagesList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/loginSuccess.html">
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/headerForum.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#li#1;n#ul#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/nodeTool/mergeTogger.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="155" column="8" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="8" />
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/home.html">
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/headerForum.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#p#3;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#4;n#div#0;n#div#7;n#section#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/goTop.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        <state relative-caret-position="60">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/searchPerson.css">
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/forum.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="20">
+          <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/searchHouse.html">
+    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/headerForum.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="400">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/houseSearch.js">
+    <entry file="file://$PROJECT_DIR$/bin/julive/public/css/font/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        <state relative-caret-position="260">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/houseSearch.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/houseTypeDetail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/houseSearch.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/houseTypeDetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/common/askFooterTips.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="212" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="212" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/julive/web/houseDetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="280" column="18" selection-start-line="280" selection-start-column="18" selection-end-line="280" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#7;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

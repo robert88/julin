@@ -115,6 +115,10 @@
 
 /*简单弹窗*/
 function dialog($dialog) {
+	if(!$dialog.data("init")){
+		$dialog.find(".dialog").append("<i class='J-dialog-close icon-x'></i>")
+		$dialog.data("init",true)
+	}
 	$dialog.show();
 	centerDialog($dialog.find(".dialog"));
 }

@@ -384,7 +384,7 @@ body{
 .selectWrap .selectText{border: none;background: none;}
 .selectWrap .selectBtn{width: 30px;position: absolute;height: 30px;top: 0px;right: 16px;color: #999;}
 .selectWrap .option{width: 100%;border-top: none;left: 0;color: #fff;background: #0046ad;position: absolute;display: none;}
-.selectWrap .option p{height: 26.666666666666668px;line-height: 26.666666666666668px;font-size: 14px;}
+.selectWrap .option p{height: 26px;line-height: 26px;font-size: 14px;}
 .selectWrap .option p:hover{background: #0046ad;color: #fff;}
 .selectWrap.active .option{top: 100%;display: block;}
 
@@ -403,6 +403,7 @@ body{
     display: none;
 }
 .dialog{position:absolute;left:5%;background: #fff;width: 90%;	box-shadow: 0 3px 5px 0 rgba(0,0,0,.5);}
+.dialog .icon-x{position:absolute;right:10px;top:5px}
 @media (min-width: 640px) {
     .dialog{max-width: 630px;left:50%;margin-left: -315px;}
 }
