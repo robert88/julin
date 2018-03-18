@@ -1,0 +1,28 @@
+.listitem .list_user{position:relative;padding:0 50px}
+.listitem .list_user .author-follow{line-height:30px;font-size:14px;border:1px solid #ccc;border-radius:5px;padding:0 10px;text-align:center;display:inline-block;position:absolute;right:0;top:0;color:#C66}
+.listitem .list_user .author-img{position:absolute;left:0;top:0;width:100px;height:100px;width:42px;height:42px}
+.listitem .list_user .author-img img{width:100%;height:100%;-moz-border-radius:24px;-webkit-border-radius:24px;border-radius:24px;float:left;display:block;margin-right:10px}
+.listitem .list_user{position:relative}
+.listitem .list_user .author-follow{line-height:30px;font-size:14px;border:1px solid #ccc;border-radius:5px;padding:0 10px;text-align:center;display:inline-block;position:absolute;right:0;top:0;color:#C66}
+.listitem .list_user .author-img{position:absolute;left:0;top:0;width:100px;height:100px;width:42px;height:42px}
+.listitem .list_user .author-img img{width:100%;height:100%;-moz-border-radius:24px;-webkit-border-radius:24px;border-radius:24px;float:left;display:block;margin-right:10px}
+.listitem .list_user>h3{/* padding:0 50px */}
+
+
+.listitem .list_subject{
+	color: #000;
+}
+.list_pics{position: relative;padding-top:33.33% }
+.list_pics .col{position: absolute;height: 100%;top: 0;left: 0;margin: 0 -3px;}
+.list_pics .col4{padding:0 3px;height: 100%;}
+.list_pics img{
+	width: 100%;
+	height: 100%;
+}
+.list_info .col4{
+	border-right:1px solid #c1c1c1;
+	text-align: center;
+}
+.list_info .col4:last-child{
+	border-right:none;
+}
