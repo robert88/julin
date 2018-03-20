@@ -1,3 +1,5 @@
+.list-wrap{background: #eee;}
+.list-wrap .wrap{background: #fff;box-shadow: 0 5px 10px rgba(0,0,0,.15);}
 .listitem .list_user{position:relative;padding:0 50px}
 .listitem .list_user .author-follow{line-height:30px;font-size:14px;border:1px solid #ccc;border-radius:5px;padding:0 10px;text-align:center;display:inline-block;position:absolute;right:0;top:0;color:#C66}
 .listitem .list_user .author-img{position:absolute;left:0;top:0;width:100px;height:100px;width:42px;height:42px}
@@ -13,8 +15,9 @@
 	color: #000;
 }
 .list_pics{position: relative;padding-top:33.33% }
-.list_pics .col{position: absolute;height: 100%;top: 0;left: 0;margin: 0 -3px;}
+.list_pics .col{position: absolute;height: 100%;top: 0;left: 0;width: 100%;margin: 0 -3px;}
 .list_pics .col4{padding:0 3px;height: 100%;}
+.list_pics .col4 a{width: 100%;height: 100%;}
 .list_pics img{
 	width: 100%;
 	height: 100%;
